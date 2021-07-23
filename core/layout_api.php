@@ -560,7 +560,7 @@ function layout_navbar_button_bar() {
 
 	if( $t_show_report_bug_button )  {
 		$t_bug_url = string_get_bug_report_url();
-		echo '<a class="btn btn-primary btn-sm" href="' . $t_bug_url . '">';
+		echo '<a id="report-bug" class="btn btn-primary btn-sm" href="' . $t_bug_url . '">';
 		print_icon( 'fa-edit');
 		echo ' ' . lang_get( 'report_bug_link' );
 		echo '</a>';
