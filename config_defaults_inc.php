@@ -3247,14 +3247,14 @@ $g_status_colors = array(
  *  The bug id will be padded with 0's up to the size given
  * @global integer $g_display_bug_padding
  */
-$g_display_bug_padding = 7;
+$g_display_bug_padding = 0;
 
 /**
  * The padding level when displaying bugnote ids
  *  The bugnote id will be padded with 0's up to the size given
  * @global integer $g_display_bugnote_padding
  */
-$g_display_bugnote_padding = 7;
+$g_display_bugnote_padding = 0;
 
 #############################
 # MantisBT Cookie Variables #
