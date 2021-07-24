@@ -73,7 +73,13 @@ if (!defined('DOKU_INC')) die();
                 <div class="youarehere"><?php tpl_youarehere() ?></div>
             <?php endif ?>
             <?php if($conf['breadcrumbs']): ?>
-                <div class="trace"><?php tpl_breadcrumbs() ?></div>
+                <div class="trace">
+                    <?php
+                     $protocol = strtolower(substr($_SERVER["SERVER_PROTOCOL"],0,5))=='https'?'https':'http';
+                     tpl_link($protocol . '://' .$_SERVER['HTTP_HOST'], "◄ Back to Tasks");
+                     ?>
+                     <span class="bcsep">&nbsp;-&nbsp;</span>
+                     <?php tpl_breadcrumbs() ?></div>
             <?php endif ?>
         </div>
     <?php endif ?>
