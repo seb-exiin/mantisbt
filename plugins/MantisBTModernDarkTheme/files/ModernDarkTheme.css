@@ -170,8 +170,8 @@ html {
 }
 
 .footer-content {
-  background-color: #282828 !important;
-  border-top: 1px dotted white !important;
+  background-color: inherit !important;
+  border-top: 1px dotted #8b949e !important;
 }
 
 .label {
@@ -690,7 +690,7 @@ a i {
 .skin-3 .nav-list > li.active.highlight > a,
 .skin-3 .nav-list > li.active > a,
 .sidebar.compact .nav-list > li > a:hover {
-  background-color: #212326 !important;
+  background-color: #22252a !important;
   border-color: #212326 !important;
 }
 
@@ -819,7 +819,7 @@ table .row-category b {
 #navbar.navbar {
   padding-top: 5px !important;
   padding-bottom: 5px !important;
-  background-color: #40454e !important;
+  background-color: #2d3035 !important;
 }
 
 .navbar-container .btn-primary {
@@ -827,8 +827,12 @@ table .row-category b {
   border-radius: 5px !important;
 }
 
-.navbar-container a.btn-primary:first-child {
-  background-color: #b52020 !important;
+.navbar-container a#report-bug.btn-primary {
+  background-color: #7ba529 !important;
+  color: white;
+} 
+.navbar-container a#report-bug.btn-primary i {
+  color: white !important;
 } 
 
 .navbar-brand {
@@ -842,8 +846,9 @@ table .row-category b {
 
 .widget-box, .breadcrumbs {
   border-radius: 5px;
-  box-shadow: -1px 2px 28px -3px #131111cf;
+  box-shadow: -1px 2px 15px -3px #131111cf;
 }
 .breadcrumbs {
   border-radius: 5px !important;
 }
+
