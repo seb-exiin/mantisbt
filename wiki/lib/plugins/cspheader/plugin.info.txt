@@ -1,0 +1,7 @@
+base   cspheader
+author Damien REgad, Matthias Schulte
+email  dregad@mantisbt.org
+date   2021-01-30
+name   CSPheader plugin
+desc   Injects the Content Security Policy (CSP) header in DokuWiki pages.
+url    https://dokuwiki.org/plugin:cspheader
