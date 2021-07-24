@@ -86,12 +86,12 @@ $s_actiongroup_menu_update_product_build = 'Update Product Build';
 $s_actiongroup_menu_update_due_date = 'Update Due Date';
 $s_actiongroup_menu_add_note = 'Add Note';
 $s_actiongroup_menu_attach_tags = 'Attach Tags';
-$s_actiongroup_bugs = 'Selected Issues';
-$s_actiongroup_error_issue_is_readonly = 'Issue is readonly.';
+$s_actiongroup_bugs = 'Selected Tasks';
+$s_actiongroup_error_issue_is_readonly = 'Task is readonly.';
 
 # new strings:
 $s_all_projects = 'All Projects';
-$s_move_bugs = 'Move Issues';
+$s_move_bugs = 'Move Tasks';
 $s_operation_successful = 'Operation successful.';
 $s_operation_warnings = 'Operation completed with warnings.';
 $s_operation_failed = 'Operation did not complete successfully.';
@@ -107,7 +107,7 @@ $s_display_history = 'Display History';
 $s_public_project_msg = 'This project is public. All users have access.';
 $s_private_project_msg = 'This project is private. Only administrators and manually added users have access.';
 $s_access_level_project = 'Project Access Level';
-$s_view_submitted_bug_link = 'View Submitted Issue %1$s';
+$s_view_submitted_bug_link = 'View Submitted Task %1$s';
 $s_assigned_projects = 'Assigned Projects';
 $s_assigned_projects_label = 'Assigned Projects';
 $s_unassigned_projects_label = 'Unassigned Projects';
@@ -118,15 +118,15 @@ $s_copy_versions_from = 'Copy Versions From';
 $s_copy_versions_to = 'Copy Versions To';
 $s_copy_users_from = 'Copy Users From';
 $s_copy_users_to = 'Copy Users To';
-$s_bug_history = 'Issue History';
+$s_bug_history = 'Task History';
 $s_field = 'Field';
 $s_old_value = 'Old Value';
 $s_new_value = 'New Value';
 $s_date_modified = 'Date Modified';
 $s_bugnote = 'Note';
 $s_bugnote_view_state = 'Note View State';
-$s_bug_monitor = 'Issue Monitored';
-$s_bug_end_monitor = 'Issue End Monitor';
+$s_bug_monitor = 'Task Monitored';
+$s_bug_end_monitor = 'Task End Monitor';
 $s_announcement = 'Announcement';
 $s_stays_on_top = 'Stays on Top';
 $s_bugnote_link_title = 'Direct link to note';
@@ -151,7 +151,7 @@ $s_related_to = 'related to';
 $s_dependant_on = 'parent of';
 $s_blocks = 'child of';
 
-$s_new_bug = 'New Issue';
+$s_new_bug = 'New Task';
 $s_bugnote_added = 'Note Added';
 $s_bugnote_edited = 'Note Edited';
 $s_bugnote_deleted = 'Note Deleted';
@@ -161,7 +161,7 @@ $s_additional_information_updated = 'Additional Information Updated';
 $s_steps_to_reproduce_updated = 'Steps to Reproduce Updated';
 $s_file_added = 'File Added';
 $s_file_deleted = 'File Deleted';
-$s_bug_deleted = 'Issue Deleted';
+$s_bug_deleted = 'Task Deleted';
 
 $s_make_private = 'Make Private';
 $s_make_public = 'Make Public';
@@ -170,7 +170,7 @@ $s_create_new_project_link = 'Create New Project';
 
 # Browser Search - %s is the Search Engine title (@see $g_search_title)
 $s_opensearch_id_short = '%s Id';
-$s_opensearch_id_description = '%s: search by Issue Id';
+$s_opensearch_id_description = '%s: search by Task Id';
 $s_opensearch_text_short = '%s Text';
 $s_opensearch_text_description = '%s: full-text search';
 
@@ -179,31 +179,31 @@ $s_select_option = '(select)';
 
 # bug_actiongroup_page.php : mass treatment
 $s_bug_actiongroup_access = 'You did not have appropriate permissions to perform that action.';
-$s_bug_actiongroup_status = 'This issue cannot be changed to the requested status';
-$s_bug_actiongroup_category = 'This issue cannot be changed to the requested category';
-$s_bug_actiongroup_handler = 'The requested user is not allowed to handle this issue';
-$s_bug_actiongroup_version = 'The requested version does not exist in this issue\'s project';
-$s_close_bugs_conf_msg = 'Are you sure you wish to close these issues?';
-$s_delete_bugs_conf_msg = 'Are you sure you wish to delete these issues?';
-$s_move_bugs_conf_msg = 'Move issues to';
-$s_copy_bugs_conf_msg = 'Copy issues to';
-$s_assign_bugs_conf_msg = 'Assign issues to';
-$s_resolve_bugs_conf_msg = 'Choose issues resolution';
-$s_priority_bugs_conf_msg = 'Choose issues priority';
-$s_status_bugs_conf_msg = 'Choose issues status';
-$s_view_status_bugs_conf_msg = 'Choose issues view status';
-$s_category_bugs_conf_msg = 'Choose issues category';
-$s_set_sticky_bugs_conf_msg = 'Are you sure you wish to set/unset these issues sticky?';
+$s_bug_actiongroup_status = 'This task cannot be changed to the requested status';
+$s_bug_actiongroup_category = 'This task cannot be changed to the requested category';
+$s_bug_actiongroup_handler = 'The requested user is not allowed to handle this task';
+$s_bug_actiongroup_version = 'The requested version does not exist in this task\'s project';
+$s_close_bugs_conf_msg = 'Are you sure you wish to close these tasks?';
+$s_delete_bugs_conf_msg = 'Are you sure you wish to delete these tasks?';
+$s_move_bugs_conf_msg = 'Move tasks to';
+$s_copy_bugs_conf_msg = 'Copy tasks to';
+$s_assign_bugs_conf_msg = 'Assign tasks to';
+$s_resolve_bugs_conf_msg = 'Choose tasks resolution';
+$s_priority_bugs_conf_msg = 'Choose tasks priority';
+$s_status_bugs_conf_msg = 'Choose tasks status';
+$s_view_status_bugs_conf_msg = 'Choose tasks view status';
+$s_category_bugs_conf_msg = 'Choose tasks category';
+$s_set_sticky_bugs_conf_msg = 'Are you sure you wish to set/unset these tasks sticky?';
 $s_product_version_bugs_conf_msg = 'Update Product Version to';
 $s_fixed_in_version_bugs_conf_msg = 'Update Fixed in Version to';
 $s_target_version_bugs_conf_msg = 'Update Target Version to';
 $s_due_date_bugs_conf_msg = 'Update Due Date to';
-$s_close_group_bugs_button = 'Close Issues';
-$s_delete_group_bugs_button = 'Delete Issues';
-$s_move_group_bugs_button = 'Move Issues';
-$s_copy_group_bugs_button = 'Copy Issues';
-$s_assign_group_bugs_button = 'Assign Issues';
-$s_resolve_group_bugs_button = 'Resolve Issues';
+$s_close_group_bugs_button = 'Close Tasks';
+$s_delete_group_bugs_button = 'Delete Tasks';
+$s_move_group_bugs_button = 'Move Tasks';
+$s_copy_group_bugs_button = 'Copy Tasks';
+$s_assign_group_bugs_button = 'Assign Tasks';
+$s_resolve_group_bugs_button = 'Resolve Tasks';
 $s_priority_group_bugs_button = 'Update Priority';
 $s_status_group_bugs_button = 'Update Status';
 $s_category_group_bugs_button = 'Update Category';
@@ -214,10 +214,10 @@ $s_fixed_in_version_group_bugs_button = 'Update Fixed in Version';
 $s_target_version_group_bugs_button = 'Update Target Version';
 $s_due_date_group_bugs_button = 'Update Due Date';
 $s_update_severity_title = 'Update Severity';
-$s_update_severity_msg = 'Choose issue severity';
+$s_update_severity_msg = 'Choose task severity';
 $s_update_severity_button = 'Update Severity';
 
-# print_all_bug_page.php : display selected issues
+# print_all_bug_page.php : display selected Tasks
 $s_hide_button = 'Display selected only';
 
 # print_all_bug_options.php : printing preferences
@@ -242,7 +242,7 @@ $s_administrator = 'administrator';
 $s_myself = 'Myself';
 $s_default_access_level = 'Default access level';
 
-$s_issue_status_percentage = 'Issue Status Percentage';
+$s_issue_status_percentage = 'Task Status Percentage';
 
 # Enum Strings
 $s_access_levels_enum_string = '10:viewer,25:reporter,40:updater,55:developer,70:manager,90:administrator';
@@ -278,42 +278,42 @@ $s_reset_request_admin_msg = 'Your password has been reset. Please visit the fol
 
 $s_reset_request_in_progress_msg = 'If you supplied the correct username and e-mail address for your account, we will now have sent a confirmation message to that e-mail address. Once the message has been received, follow the instructions provided to change the password on your account.';
 
-$s_email_notification_title_for_status_bug_new = 'The following issue is now in status NEW (again)';
-$s_email_notification_title_for_status_bug_feedback = 'The following issue requires your FEEDBACK.';
-$s_email_notification_title_for_status_bug_acknowledged = 'The following issue has been ACKNOWLEDGED.';
-$s_email_notification_title_for_status_bug_confirmed = 'The following issue has been CONFIRMED.';
-$s_email_notification_title_for_status_bug_assigned = 'The following issue has been ASSIGNED.';
-$s_email_notification_title_for_status_bug_resolved = 'The following issue has been RESOLVED.';
-$s_email_notification_title_for_status_bug_closed = 'The following issue has been CLOSED';
-$s_email_notification_title_for_action_bug_submitted = 'The following issue has been SUBMITTED.';
-$s_email_notification_title_for_action_bug_assigned = 'The following issue has been ASSIGNED.';
-$s_email_notification_title_for_action_bug_unassigned = 'The following issue has been UNASSIGNED.';
-$s_email_notification_title_for_action_bug_reopened = 'The following issue has been REOPENED.';
-$s_email_notification_title_for_action_bug_deleted = 'The following issue has been DELETED.';
-$s_email_notification_title_for_action_bug_updated = 'The following issue has been UPDATED.';
-$s_email_notification_title_for_action_sponsorship_added = 'The following issue has been SPONSORED.';
-$s_email_notification_title_for_action_sponsorship_updated = 'A sponsorship of the following issue was modified.';
-$s_email_notification_title_for_action_sponsorship_deleted = 'A sponsorship of the following issue was withdrawn.';
-$s_email_notification_title_for_action_bugnote_submitted = 'A NOTE has been added to this issue.';
-$s_email_notification_title_for_action_duplicate_of_relationship_added = 'The following issue has been set as DUPLICATE OF issue %1$s.';
-$s_email_notification_title_for_action_has_duplicate_relationship_added = 'The issue %1$s has been set as DUPLICATE OF the following issue.';
-$s_email_notification_title_for_action_related_to_relationship_added = 'The following issue has been set as RELATED TO issue %1$s.';
-$s_email_notification_title_for_action_dependant_on_relationship_added = 'The following issue has been set PARENT OF issue %1$s.';
-$s_email_notification_title_for_action_blocks_relationship_added = 'The following issue has been set CHILD OF issue %1$s.';
-$s_email_notification_title_for_action_duplicate_of_relationship_deleted = 'The following issue has been UNset as DUPLICATE OF issue %1$s.';
-$s_email_notification_title_for_action_has_duplicate_relationship_deleted = 'The issue %1$s has been removed as a DUPLICATE OF the following issue.';
-$s_email_notification_title_for_action_related_to_relationship_deleted = 'The following issue has been marked as UNRELATED TO issue %1$s.';
-$s_email_notification_title_for_action_dependant_on_relationship_deleted = 'The following issue has been removed as the PARENT OF issue %1$s.';
-$s_email_notification_title_for_action_blocks_relationship_deleted = 'The following issue has been removed as the CHILD OF issue %1$s.';
-$s_email_notification_title_for_action_relationship_child_resolved = 'The RELATED issue %1$s has been RESOLVED.';
-$s_email_notification_title_for_action_relationship_child_closed = 'The RELATED issue %1$s has been CLOSED.';
-$s_email_notification_title_for_action_related_issue_deleted = 'The RELATED issue %1$s has been DELETED.';
-$s_email_notification_title_for_action_monitor = 'Issue %1$s is now monitored by user %2$s.';
+$s_email_notification_title_for_status_bug_new = 'The following task is now in status NEW (again)';
+$s_email_notification_title_for_status_bug_feedback = 'The following task requires your FEEDBACK.';
+$s_email_notification_title_for_status_bug_acknowledged = 'The following task has been ACKNOWLEDGED.';
+$s_email_notification_title_for_status_bug_confirmed = 'The following task has been CONFIRMED.';
+$s_email_notification_title_for_status_bug_assigned = 'The following task has been ASSIGNED.';
+$s_email_notification_title_for_status_bug_resolved = 'The following task has been RESOLVED.';
+$s_email_notification_title_for_status_bug_closed = 'The following task has been CLOSED';
+$s_email_notification_title_for_action_bug_submitted = 'The following task has been SUBMITTED.';
+$s_email_notification_title_for_action_bug_assigned = 'The following task has been ASSIGNED.';
+$s_email_notification_title_for_action_bug_unassigned = 'The following task has been UNASSIGNED.';
+$s_email_notification_title_for_action_bug_reopened = 'The following task has been REOPENED.';
+$s_email_notification_title_for_action_bug_deleted = 'The following task has been DELETED.';
+$s_email_notification_title_for_action_bug_updated = 'The following task has been UPDATED.';
+$s_email_notification_title_for_action_sponsorship_added = 'The following task has been SPONSORED.';
+$s_email_notification_title_for_action_sponsorship_updated = 'A sponsorship of the following task was modified.';
+$s_email_notification_title_for_action_sponsorship_deleted = 'A sponsorship of the following task was withdrawn.';
+$s_email_notification_title_for_action_bugnote_submitted = 'A NOTE has been added to this task.';
+$s_email_notification_title_for_action_duplicate_of_relationship_added = 'The following task has been set as DUPLICATE OF task %1$s.';
+$s_email_notification_title_for_action_has_duplicate_relationship_added = 'The task %1$s has been set as DUPLICATE OF the following task.';
+$s_email_notification_title_for_action_related_to_relationship_added = 'The following task has been set as RELATED TO task %1$s.';
+$s_email_notification_title_for_action_dependant_on_relationship_added = 'The following task has been set PARENT OF task %1$s.';
+$s_email_notification_title_for_action_blocks_relationship_added = 'The following task has been set CHILD OF task %1$s.';
+$s_email_notification_title_for_action_duplicate_of_relationship_deleted = 'The following task has been UNset as DUPLICATE OF task %1$s.';
+$s_email_notification_title_for_action_has_duplicate_relationship_deleted = 'The task %1$s has been removed as a DUPLICATE OF the following task.';
+$s_email_notification_title_for_action_related_to_relationship_deleted = 'The following task has been marked as UNRELATED TO task %1$s.';
+$s_email_notification_title_for_action_dependant_on_relationship_deleted = 'The following task has been removed as the PARENT OF task %1$s.';
+$s_email_notification_title_for_action_blocks_relationship_deleted = 'The following task has been removed as the CHILD OF task %1$s.';
+$s_email_notification_title_for_action_relationship_child_resolved = 'The RELATED task %1$s has been RESOLVED.';
+$s_email_notification_title_for_action_relationship_child_closed = 'The RELATED task %1$s has been CLOSED.';
+$s_email_notification_title_for_action_related_issue_deleted = 'The RELATED task %1$s has been DELETED.';
+$s_email_notification_title_for_action_monitor = 'Task %1$s is now monitored by user %2$s.';
 
 $s_email_reporter = 'Reported By';
 $s_email_handler = 'Assigned To';
 $s_email_project = 'Project';
-$s_email_bug = 'Issue ID';
+$s_email_bug = 'Task ID';
 $s_email_category = 'Category';
 $s_email_reproducibility = 'Reproducibility';
 $s_email_severity = 'Severity';
@@ -395,7 +395,7 @@ $s_email_on_bugnote_added = 'E-mail on Note Added';
 $s_email_on_status_change = 'E-mail on Status Change';
 $s_email_on_priority_change = 'E-mail on Priority Change';
 $s_email_bugnote_limit = 'E-mail Notes Limit';
-$s_email_full_issue_details = 'E-mail Full Issue Details';
+$s_email_full_issue_details = 'E-mail Full Task Details';
 $s_language = 'Language';
 $s_font_family = 'Font Family';
 $s_update_prefs_button = 'Update Prefs';
@@ -422,10 +422,10 @@ $s_profile_description = 'System Description';
 # account_sponsor_page.php
 $s_my_sponsorship = 'My Sponsorships';
 $s_update_sponsorship_button = 'Change Payment Status';
-$s_no_sponsored = 'No sponsored issues Assigned To yourself were found.';
-$s_own_sponsored = 'Issues You have Sponsored:';
-$s_issues_handled = 'Sponsored Issues You Have Been Assigned To:';
-$s_no_own_sponsored = 'You have not sponsored any issues.';
+$s_no_sponsored = 'No sponsored tasks Assigned To yourself were found.';
+$s_own_sponsored = 'Tasks You have Sponsored:';
+$s_issues_handled = 'Sponsored Tasks You Have Been Assigned To:';
+$s_no_own_sponsored = 'You have not sponsored any tasks.';
 $s_sponsor = 'Sponsor'; # like in 'The sponsor of...'
 $s_sponsor_verb = 'Sponsor'; # like in 'Sponsor it!'
 $s_amount = 'Amount';
@@ -444,32 +444,32 @@ $s_realname_updated = 'Real name successfully updated';
 $s_password_updated = 'Password successfully updated';
 
 # bug_action_group_page
-$s_multiple_projects = 'The issues you have selected are from different projects. The parameters below reflect the settings for all projects. If this is incorrect, please retry your change with a smaller number of issues selected.';
+$s_multiple_projects = 'The tasks you have selected are from different projects. The parameters below reflect the settings for all projects. If this is incorrect, please retry your change with a smaller number of tasks selected.';
 
 # bug_change_status_page.php
-$s_new_bug_title = 'New Issue';
-$s_feedback_bug_title = 'Request Feedback on Issue';
-$s_acknowledged_bug_title = 'Acknowledge Issue';
-$s_confirmed_bug_title = 'Confirm Issue';
-$s_assigned_bug_title = 'Assign Issue';
-$s_new_bug_button = 'New Issue';
+$s_new_bug_title = 'New Task';
+$s_feedback_bug_title = 'Request Feedback on Task';
+$s_acknowledged_bug_title = 'Acknowledge Task';
+$s_confirmed_bug_title = 'Confirm Task';
+$s_assigned_bug_title = 'Assign Task';
+$s_new_bug_button = 'New Task';
 $s_feedback_bug_button = 'Request Feedback';
-$s_acknowledged_bug_button = 'Acknowledge Issue';
-$s_confirmed_bug_button = 'Confirm Issue';
-$s_assigned_bug_button = 'Assign Issue';
+$s_acknowledged_bug_button = 'Acknowledge Task';
+$s_confirmed_bug_button = 'Confirm Task';
+$s_assigned_bug_button = 'Assign Task';
 
 # bug_close.php
-$s_bug_close_msg = 'Issue has been closed...';
+$s_bug_close_msg = 'Task has been closed...';
 $s_close_immediately = 'Close immediately:';
 
 # bug_close_page.php
-$s_closed_bug_title = 'Close Issue';
+$s_closed_bug_title = 'Close Task';
 
 # bug_delete.php
-$s_bug_deleted_msg = 'Issue has been deleted...';
+$s_bug_deleted_msg = 'Task has been deleted...';
 
 # bug_delete_page.php
-$s_delete_bug_sure_msg = 'Are you sure you wish to delete this issue?';
+$s_delete_bug_sure_msg = 'Are you sure you wish to delete this Task?';
 
 # bug_monitor_add.php
 $s_monitor_bug_button = 'Monitor';
@@ -487,17 +487,17 @@ $s_upload_files_button = 'Upload Files';
 $s_max_file_size_info = 'Maximum size: %1$s %2$s'; # $1 = size, $2 = unit (e.g. kb, bytes)
 
 # bug_reopen.php
-$s_bug_reopened_msg = 'Issue has been reopened...';
-$s_reopen_add_bugnote_title = 'Add Note Reason For Reopening Issue';
-$s_bugnote_add_reopen_button = 'Add Note and Reopen Issue';
+$s_bug_reopened_msg = 'Task has been reopened...';
+$s_reopen_add_bugnote_title = 'Add Note Reason For Reopening Task';
+$s_bugnote_add_reopen_button = 'Add Note and Reopen Task';
 
 # bug_resolve_page.php
-$s_resolved_bug_title = 'Resolve Issue';
-$s_resolved_bug_button = 'Resolve Issue';
+$s_resolved_bug_title = 'Resolve Task';
+$s_resolved_bug_button = 'Resolve Task';
 
 # bug_resolve_page2.php
-$s_bug_resolved_msg = 'Issue has been resolved. Enter note below...';
-$s_resolve_add_bugnote_title = 'Add Note Reason For Resolving Issue';
+$s_bug_resolved_msg = 'Task has been resolved. Enter note below...';
+$s_resolve_add_bugnote_title = 'Add Note Reason For Resolving Task';
 $s_bugnote_add_resolve_button = 'Add Note';
 
 # bug_reminder_page.php
@@ -510,29 +510,29 @@ $s_reminder_sent_none = 'No reminders could be sent';
 $s_reminder_list_truncated = 'recipients list truncated';
 $s_bug_send_button = 'Send';
 $s_reminder = 'Reminder';
-$s_reminder_mentions = 'You can now mention users to trigger notifications for them instead of using reminders feature.  For example, others can mention you by writing %1s in issues and notes and you will get an email notification.';
-$s_reminder_explain = 'This note will be sent to the selected recipients, requesting feedback on this issue.';
-$s_reminder_monitor = 'These recipients will also begin monitoring the issue; they can unsubscribe using the "End Monitoring" button.';
-$s_reminder_store = 'The note will be stored with the issue.';
+$s_reminder_mentions = 'You can now mention users to trigger notifications for them instead of using reminders feature.  For example, others can mention you by writing %1s in tasks and notes and you will get an email notification.';
+$s_reminder_explain = 'This note will be sent to the selected recipients, requesting feedback on this task.';
+$s_reminder_monitor = 'These recipients will also begin monitoring the task; they can unsubscribe using the "End Monitoring" button.';
+$s_reminder_store = 'The note will be stored with the task.';
 
 # mentions
 $s_mentioned_you = 'mentioned you on:';
 $s_mentioned_in = 'Mentioned in %1$s';
 
 # bug_set_sponsorship.php
-$s_confirm_sponsorship = 'Please confirm you want to sponsor issue %1$d for %2$s.';
+$s_confirm_sponsorship = 'Please confirm you want to sponsor task %1$d for %2$s.';
 
 # bug_stick.php
 $s_stick_bug_button = 'Stick';
 $s_unstick_bug_button = 'Unstick';
 
 # bug_update.php
-$s_bug_updated_msg = 'Issue has been successfully updated...';
+$s_bug_updated_msg = 'Task has been successfully updated...';
 
 # bug_update_page.php
-$s_back_to_bug_link = 'Back To Issue';
+$s_back_to_bug_link = 'Back To Task';
 $s_update_simple_link = 'Update Simple';
-$s_updating_bug_advanced_title = 'Updating Issue Information';
+$s_updating_bug_advanced_title = 'Updating Task Information';
 $s_id = 'ID';
 $s_category = 'Category';
 $s_severity = 'Severity';
@@ -560,11 +560,11 @@ $s_synthesis = 'Synthesis';
 $s_description = 'Description';
 $s_steps_to_reproduce = 'Steps To Reproduce';
 $s_update_information_button = 'Update Information';
-$s_sticky_issue = 'Sticky Issue';
+$s_sticky_issue = 'Sticky Task';
 $s_profile = 'Profile';
 
 # bug_update_page.php
-$s_updating_bug_simple_title = 'Updating Issue Information';
+$s_updating_bug_simple_title = 'Updating Task Information';
 
 # bug_view*
 $s_view_revisions = 'View Revisions';
@@ -572,11 +572,11 @@ $s_view_num_revisions = 'View %1$d revisions';
 $s_revision = 'Revision';
 $s_revision_by = '%1$s by %2$s';
 $s_revision_drop = 'Drop';
-$s_bug_revision_dropped_history = 'Issue Revision Dropped';
+$s_bug_revision_dropped_history = 'Task Revision Dropped';
 $s_bugnote_revision_dropped_history = 'Note Revision Dropped';
 $s_all_revisions = 'All Revisions';
-$s_back_to_issue = 'Back to Issue';
-$s_confirm_revision_drop = 'Are you sure you want to drop this issue revision?';
+$s_back_to_issue = 'Back to Task';
+$s_confirm_revision_drop = 'Are you sure you want to drop this Task revision?';
 $s_activities_title = 'Activities';
 
 # bugnote_add.php
@@ -590,10 +590,10 @@ $s_bug_notes_title = 'Notes';
 $s_edit_bugnote_title = 'Edit Note';
 
 # bugnote_inc.php
-$s_no_bugnotes_msg = 'There are no notes attached to this issue.';
+$s_no_bugnotes_msg = 'There are no notes attached to this Task.';
 $s_add_bugnote_title = 'Add Note';
 $s_add_bugnote_button = 'Add Note';
-$s_closed_bug_button = 'Close Issue';
+$s_closed_bug_button = 'Close Task';
 
 # bugnote_update.php
 $s_bugnote_updated_msg = 'Note has been successfully updated...';
@@ -628,14 +628,14 @@ $s_warning_default_administrator_account_present = '<strong>Warning:</strong> Yo
 $s_warning_admin_directory_present = '<strong>Warning:</strong> "admin" directory should be removed, or access to it restricted.';
 $s_warning_change_setting = '<strong>Warning:</strong> "%1$s" is not set to its default value (%2$s).';
 $s_warning_security_hazard = 'This is a potential security hazard as it can expose sensitive information.';
-$s_warning_integrity_hazard = 'This will cause MantisBT to continue when errors occurs and may lead to system/data integrity issues.';
+$s_warning_integrity_hazard = 'This will cause MantisBT to continue when errors occurs and may lead to system/data integrity tasks.';
 $s_warning_debug_email = '<strong>Warning:</strong> "<code>debug_email</code>" is not set to <code>OFF</code>, all notification e-mails will be sent to "%1$s".';
 $s_error_database_no_schema_version = '<strong>Error:</strong> Your Database schema version is 0. This can happen either because the database is corrupt or the value of "database_version" could not be retrieved from the config table or the database structure is from an outdated version of MantisBT (pre 1.0.0).';
 $s_error_database_version_out_of_date_2 = '<strong>Warning:</strong> The database structure may be out of date. Please upgrade <a href="admin/install.php">here</a> before logging in.';
 $s_error_code_version_out_of_date = '<strong>Warning:</strong> The database structure is more recent than the installed code. Please upgrade the code.';
 
 # login_page.php
-$s_login_page_info = 'Welcome to the Issue Tracker.';
+$s_login_page_info = 'Welcome to the Task Tracker.';
 $s_login_title = 'Login';
 $s_save_login = 'Keep me logged in';
 $s_secure_session = 'Secure Session';
@@ -730,9 +730,9 @@ $s_config_project = 'Note: These configurations affect only the %1$s project.';
 $s_colour_coding = 'In the table below, the following color code applies:';
 $s_colour_project = 'Project setting overrides others.';
 $s_colour_global = 'All Project settings override default configuration.';
-$s_issue_reporter = 'User who reported the issue';
-$s_issue_handler = 'User who is handling the issue';
-$s_users_added_bugnote = 'Users who added Issue Notes';
+$s_issue_reporter = 'User who reported the task';
+$s_issue_handler = 'User who is handling the task';
+$s_users_added_bugnote = 'Users who added Task Notes';
 $s_category_assigned_to = 'Category Owner';
 $s_email_notify_users = 'Any user with access level';
 $s_change_configuration = 'Update Configuration';
@@ -756,14 +756,14 @@ $s_alter_level = 'Who can alter this value';
 $s_validation = 'Workflow Validation';
 $s_comment = 'Validation Comment';
 $s_superfluous = 'Arc from status to itself is implied, and need not be given explicitly';
-$s_unreachable = 'You cannot move an issue into this status';
-$s_no_exit = 'You cannot move an issue out of this status';
+$s_unreachable = 'You cannot move an task into this status';
+$s_no_exit = 'You cannot move an task out of this status';
 $s_access_levels = 'Access Levels';
 $s_access_change = 'Minimum Access Level to Change to this Status';
-$s_desc_bug_submit_status = 'Status to which a new issue is set';
-$s_desc_bug_reopen_status = 'Status to which reopened issues are set';
-$s_desc_bug_resolved_status_threshold = 'Status where an issue is considered resolved';
-$s_desc_bug_closed_status_threshold = 'Status where an issue is considered closed';
+$s_desc_bug_submit_status = 'Status to which a new task is set';
+$s_desc_bug_reopen_status = 'Status to which reopened tasks are set';
+$s_desc_bug_resolved_status_threshold = 'Status where an task is considered resolved';
+$s_desc_bug_closed_status_threshold = 'Status where an task is considered closed';
 $s_workflow_change_access_label = 'Who can change workflow:';
 $s_access_change_access_label = 'Who can change access levels:';
 
@@ -772,23 +772,23 @@ $s_default_not_in_flow = 'The default status of %1$s is not selected in the next
 
 # manage_config_work_threshold_page
 $s_allowed_access_levels = 'Allowed for any user with access level';
-$s_assign_issue = 'Assign an issue';
-$s_allow_reporter_close = 'Allow Reporter to close Issue';
-$s_allow_reporter_reopen = 'Allow Reporter to re-open Issue';
+$s_assign_issue = 'Assign an task';
+$s_allow_reporter_close = 'Allow Reporter to close Task';
+$s_allow_reporter_reopen = 'Allow Reporter to re-open Task';
 $s_set_status_assigned = 'Set status on assignment of Handler';
 $s_edit_others_bugnotes = 'Edit others\' notes';
 $s_edit_own_bugnotes = 'Edit own notes';
 $s_delete_others_bugnotes = 'Delete others\' notes';
 $s_delete_own_bugnotes = 'Delete own notes';
 $s_change_view_state_own_bugnotes = 'Change view state of own notes';
-$s_limit_access = 'Limit reporter\'s access to their own issues';
-$s_submit_status = 'Status to which a new issue is set';
-$s_assigned_status = 'Status to set auto-assigned issues to';
-$s_resolved_status = 'Status where an issue is considered resolved';
-$s_readonly_status = 'Status where an issue becomes read only';
-$s_reopen_status = 'Status to which a reopened issue is set';
-$s_reopen_resolution = 'Resolution to which a reopened issue is set';
-$s_limit_view_unless_threshold_option = 'View other users\' issues (if not set, access will be limited to issues reported, handled, or monitored by the user)';
+$s_limit_access = 'Limit reporter\'s access to their own tasks';
+$s_submit_status = 'Status to which a new task is set';
+$s_assigned_status = 'Status to set auto-assigned tasks to';
+$s_resolved_status = 'Status where an task is considered resolved';
+$s_readonly_status = 'Status where an task becomes read only';
+$s_reopen_status = 'Status to which a reopened task is set';
+$s_reopen_resolution = 'Resolution to which a reopened task is set';
+$s_limit_view_unless_threshold_option = 'View other users\' tasks (if not set, access will be limited to tasks reported, handled, or monitored by the user)';
 
 # manage_config_revert_page
 $s_config_delete_sure = 'Are you sure you want to delete the settings for %1$s in project %2$s?';
@@ -864,14 +864,14 @@ $s_update_category_button = 'Update Category';
 $s_category_updated_msg = 'Category has been successfully updated...';
 
 # manage_proj_create_page.php
-$s_create_first_project = 'Create a project to be able to log issues.';
+$s_create_first_project = 'Create a project to be able to log tasks.';
 $s_add_subproject_title = 'Add Subproject';
 
 # manage_proj_delete.php
 $s_project_deleted_msg = 'Project successfully removed...';
 
 # manage_proj_delete_page.php
-$s_project_delete_msg = 'Are you sure you want to delete project "%1$s"?<br>This will also delete %2$s attached issue reports.';
+$s_project_delete_msg = 'Are you sure you want to delete project "%1$s"?<br>This will also delete %2$s attached task reports.';
 $s_project_delete_button = 'Delete Project';
 
 # manage_proj_edit_page.php
@@ -978,8 +978,8 @@ $s_email_user_updated_msg = 'Your account has been updated by an administrator. 
 
 # menu_inc.php
 $s_main_link = 'Main';
-$s_view_bugs_link = 'View Issues';
-$s_report_bug_link = 'Report Issue';
+$s_view_bugs_link = 'View Tasks';
+$s_report_bug_link = 'Create Task';
 $s_changelog_link = 'Change Log';
 $s_roadmap_link = 'Roadmap';
 $s_summary_link = 'Summary';
@@ -1001,7 +1001,7 @@ $s_my_view_title_resolved = 'Resolved';
 $s_my_view_title_monitored = 'Monitored by Me';
 $s_my_view_title_feedback = 'Awaiting Feedback from Me';
 $s_my_view_title_verify = 'Awaiting Confirmation of Resolution from Me';
-$s_my_view_title_my_comments = 'Issues I Have Commented On';
+$s_my_view_title_my_comments = 'Tasks I Have Commented On';
 
 # news_add.php
 $s_news_added_msg = 'News item added...';
@@ -1092,12 +1092,12 @@ $s_must_enter_severity = 'You must select a severity.';
 $s_must_enter_reproducibility = 'You must select a reproducibility.';
 $s_must_enter_summary = 'You must enter a summary.';
 $s_must_enter_description = 'You must enter a description.';
-$s_report_more_bugs = 'Report More Issues';
+$s_report_more_bugs = 'Report More Tasks';
 $s_submission_thanks_msg = 'Thank you for your submission.';
 
 # report_bug_advanced_page.php
 $s_simple_report_link = 'Simple Report';
-$s_enter_report_details_title = 'Enter Issue Details';
+$s_enter_report_details_title = 'Enter Task Details';
 $s_required = 'required';
 $s_select_category = 'Select Category';
 $s_select_reproducibility = 'Select Reproducibility';
@@ -1105,8 +1105,8 @@ $s_select_severity = 'Select Severity';
 $s_or_fill_in = 'Or Fill In';
 $s_assign_to = 'Assign To';
 $s_additional_information = 'Additional Information';
-$s_submit_report_button = 'Submit Issue';
-$s_check_report_more_bugs = 'check to report more issues';
+$s_submit_report_button = 'Submit Task';
+$s_check_report_more_bugs = 'check to report more Tasks';
 
 # report_bug_page.php
 $s_report_stay = 'Report Stay';
@@ -1165,8 +1165,8 @@ $s_balance = 'Balance';
 $s_most_active = 'Most Active';
 $s_score = 'Score';
 $s_days = 'Days';
-$s_time_stats = 'Time Stats For Resolved Issues (days)';
-$s_longest_open_bug = 'Longest open issue';
+$s_time_stats = 'Time Stats For Resolved Tasks (days)';
+$s_longest_open_bug = 'Longest open task';
 $s_longest_open = 'Longest open';
 $s_average_time = 'Average time';
 $s_total_time = 'Total time';
@@ -1181,11 +1181,11 @@ $s_any = 'any';
 $s_all = 'all';
 $s_show = 'Show';
 $s_changed = 'Highlight changed (hours)';
-$s_viewing_bugs_title = 'Viewing Issues';
+$s_viewing_bugs_title = 'Viewing Tasks';
 $s_updated = 'Updated';
-$s_sticky = 'Show Sticky Issues';
+$s_sticky = 'Show Sticky Tasks';
 $s_sort = 'Sort by';
-$s_issue_id = 'Issue #';
+$s_issue_id = 'Task #';
 $s_recently_visited = 'Recently Visited';
 $s_priority_abbreviation = 'P';
 $s_note_user_id = 'Note By';
@@ -1253,14 +1253,14 @@ $s_browser_does_not_support_audio = 'Your browser does not support audio tag.';
 $s_browser_does_not_support_video = 'Your browser does not support video tag.';
 
 # view.php
-$s_bug_view_title = 'View Issue Details';
-$s_no_users_monitoring_bug = 'There are no users monitoring this issue.';
-$s_users_monitoring_bug = 'Users monitoring this issue';
+$s_bug_view_title = 'View Task Details';
+$s_no_users_monitoring_bug = 'There are no users monitoring this task.';
+$s_users_monitoring_bug = 'Users monitoring this task';
 $s_monitoring_user_list = 'User List';
 
 # bug_sponsorship_list_view_inc.php
-$s_no_users_sponsoring_bug = 'There are no users sponsoring this issue.';
-$s_users_sponsoring_bug = 'Users sponsoring this issue';
+$s_no_users_sponsoring_bug = 'There are no users sponsoring this task.';
+$s_users_sponsoring_bug = 'Users sponsoring this task';
 $s_sponsors_list = 'Sponsors List';
 $s_total_sponsorship_amount = 'Total Sponsorship = %1$s';
 
@@ -1285,10 +1285,10 @@ $s_custom_field_access_level_rw = 'Write Access';
 $s_custom_field_length_min = 'Min. Length';
 $s_custom_field_length_max = 'Max. Length';
 $s_custom_field_filter_by = 'Add to Filter';
-$s_custom_field_display_report = 'Display When Reporting Issues';
-$s_custom_field_display_update = 'Display When Updating Issues';
-$s_custom_field_display_resolved = 'Display When Resolving Issues';
-$s_custom_field_display_closed = 'Display When Closing Issues';
+$s_custom_field_display_report = 'Display When Reporting Tasks';
+$s_custom_field_display_update = 'Display When Updating Tasks';
+$s_custom_field_display_resolved = 'Display When Resolving Tasks';
+$s_custom_field_display_closed = 'Display When Closing Tasks';
 $s_custom_field_require_report = 'Required On Report';
 $s_custom_field_require_update = 'Required On Update';
 $s_custom_field_require_resolved = 'Required On Resolve';
@@ -1318,7 +1318,7 @@ $s_bytes = 'bytes';
 $s_kib = 'KiB';
 $s_attachment_missing = 'Attachment missing';
 $s_attachment_count = 'Attachment count';
-$s_view_attachments_for_issue = 'View %1$d attachment(s) for issue #%2$d';
+$s_view_attachments_for_issue = 'View %1$d attachment(s) for task #%2$d';
 $s_warning_update_custom_field_type = '<strong>Warning:</strong> Custom field "%1$s" already has stored values. Changing field type may cause errors and unexpected behaviour if existing values are not consistent with the field\'s new type. To proceed, click the button below';
 
 # PHPMailer
@@ -1333,7 +1333,7 @@ $s_sponsorship_paid = 'Sponsorship Paid';
 $s_sponsorship_more_info = 'More information about sponsorship';
 $s_sponsorship_total = 'Sponsorship Total';
 
-# URL explaining the process of sponsoring an issue. This is defined here rather than
+# URL explaining the process of sponsoring an task. This is defined here rather than
 # in the config to allow for a URL per language. This can be set to an empty string if there
 # is not need to provide such process information.
 $s_sponsorship_process_url = '';
@@ -1341,35 +1341,35 @@ $s_sponsorship_process_url = '';
 # Changelog
 $s_changelog = 'Change Log';
 $s_changelog_empty = 'No Change Log information available';
-$s_changelog_empty_manager = 'No Change Log information available.  Issues are included once projects have versions and issues are resolved with "fixed in version" set.';
+$s_changelog_empty_manager = 'No Change Log information available.  Tasks are included once projects have versions and tasks are resolved with "fixed in version" set.';
 
 # Roadmap
 $s_roadmap = 'Roadmap';
-$s_resolved_progress = '%1$d of %2$d issue(s) resolved. Progress (%3$d%%).';
+$s_resolved_progress = '%1$d of %2$d task(s) resolved. Progress (%3$d%%).';
 $s_roadmap_empty = 'No Roadmap information available';
-$s_roadmap_empty_manager = 'No Roadmap information available.  Issues are included once projects have versions and issues have "target version" set.';
+$s_roadmap_empty_manager = 'No Roadmap information available.  Tasks are included once projects have versions and tasks have "target version" set.';
 
 # Http auth
 $s_http_auth_realm = 'MantisBT Login';
 
-$s_bug = 'issue';
-$s_bugs = 'issues';
+$s_bug = 'task';
+$s_bugs = 'tasks';
 $s_add_new_relationship = 'New relationship';
-$s_this_bug = 'Current issue';
+$s_this_bug = 'Current task';
 $s_relationship_added = 'Relationship added';
 $s_relationship_deleted = 'Relationship deleted';
 $s_no_relationship = 'no relationship';
 $s_relationship_replaced = 'Relationship replaced';
 $s_replace_relationship_button = 'Replace';
-$s_relationship_with_parent = 'Relationship with the parent issue';
+$s_relationship_with_parent = 'Relationship with the parent task';
 $s_delete_relationship_sure_msg = 'Are you sure you wish to delete this relationship?';
-$s_relationship_warning_blocking_bugs_not_resolved = 'Not all the children of this issue are yet resolved or closed.';
-$s_relationship_warning_blocking_bugs_not_resolved_2 = '<strong>Attention:</strong> Not all the children of this issue are yet resolved or closed.<br />Before <strong>resolving/closing</strong> a parent issue, all the issues related as child with this one should be resolved or closed.';
+$s_relationship_warning_blocking_bugs_not_resolved = 'Not all the children of this task are yet resolved or closed.';
+$s_relationship_warning_blocking_bugs_not_resolved_2 = '<strong>Attention:</strong> Not all the children of this task are yet resolved or closed.<br />Before <strong>resolving/closing</strong> a parent task, all the tasks related as child with this one should be resolved or closed.';
 $s_create_child_bug_button = 'Clone';
-$s_bug_cloned_to = 'Issue cloned';
-$s_bug_created_from = 'Issue generated from';
-$s_copy_from_parent = 'Copy extended data from parent issue';
-$s_copy_notes_from_parent = 'Copy issue notes';
+$s_bug_cloned_to = 'Task cloned';
+$s_bug_created_from = 'Task generated from';
+$s_copy_from_parent = 'Copy extended data from parent task';
+$s_copy_notes_from_parent = 'Copy task notes';
 $s_copy_attachments_from_parent = 'Copy attachments';
 $s_with = 'with';
 
@@ -1378,32 +1378,32 @@ $s_relation_graph = 'Relationship Graph';
 $s_dependency_graph = 'Dependency Graph';
 $s_vertical = 'Vertical';
 $s_horizontal = 'Horizontal';
-$s_view_issue = 'View Issue';
+$s_view_issue = 'View Task';
 $s_show_summary = 'Show Summary';
 $s_hide_summary = 'Hide Summary';
 
 # Permissions report
 $s_perm_rpt_capability = 'Capability';
 $s_view = 'View';
-$s_issues = 'Issues';
-$s_report_issue = 'Report an issue';
-$s_update_issue = 'Update an issue';
-$s_monitor_issue = 'Monitor an issue';
-$s_handle_issue = 'Handle an issue';
-$s_move_issue = 'Move an issue';
-$s_delete_issue = 'Delete an issue';
-$s_reopen_issue = 'Reopen an issue';
-$s_view_private_issues = 'View private issues';
-$s_update_readonly_issues = 'Update readonly issues';
-$s_update_issue_status = 'Update issue status';
-$s_set_view_status = 'Set view state when reporting a new issue or note';
-$s_update_view_status = 'Change view state of existing issue or note';
-$s_view_issue_revisions = 'View issue or note revisions';
-$s_drop_issue_revisions = 'Drop issue or note revisions';
-$s_set_sticky = 'Stick / Unstick an issue';
-$s_show_list_of_users_monitoring_issue = 'Show list of users monitoring issue';
-$s_add_users_monitoring_issue = 'Add monitors to an issue';
-$s_remove_users_monitoring_issue = 'Remove monitors from an issue';
+$s_issues = 'Tasks';
+$s_report_issue = 'Report an task';
+$s_update_issue = 'Update an task';
+$s_monitor_issue = 'Monitor an task';
+$s_handle_issue = 'Handle an task';
+$s_move_issue = 'Move an task';
+$s_delete_issue = 'Delete an task';
+$s_reopen_issue = 'Reopen an task';
+$s_view_private_issues = 'View private tasks';
+$s_update_readonly_issues = 'Update readonly tasks';
+$s_update_issue_status = 'Update task status';
+$s_set_view_status = 'Set view state when reporting a new task or note';
+$s_update_view_status = 'Change view state of existing task or note';
+$s_view_issue_revisions = 'View task or note revisions';
+$s_drop_issue_revisions = 'Drop task or note revisions';
+$s_set_sticky = 'Stick / Unstick an task';
+$s_show_list_of_users_monitoring_issue = 'Show list of users monitoring task';
+$s_add_users_monitoring_issue = 'Add monitors to an task';
+$s_remove_users_monitoring_issue = 'Remove monitors from an task';
 $s_notes = 'Notes';
 $s_add_notes = 'Add notes';
 $s_view_private_notes = 'View others\' private notes';
@@ -1414,7 +1414,7 @@ $s_view_list_of_attachments = 'View list of attachments';
 $s_download_attachments = 'Download attachments';
 $s_delete_attachments = 'Delete attachments';
 $s_delete_attachment_sure_msg = 'Are you sure you wish to delete this attachment?';
-$s_upload_issue_attachments = 'Upload issue attachments';
+$s_upload_issue_attachments = 'Upload task attachments';
 $s_filters = 'Filters';
 $s_save_filters = 'Save filters';
 $s_save_filters_as_shared = 'Save filters as shared';
@@ -1431,9 +1431,9 @@ $s_link_custom_fields_to_projects = 'Link custom fields to projects';
 $s_sponsorships = 'Sponsorships';
 $s_view_sponsorship_details = 'View sponsorship details';
 $s_view_sponsorship_total = 'View sponsorship total';
-$s_sponsor_issue = 'Sponsor issue';
-$s_assign_sponsored_issue = 'Assign sponsored issue';
-$s_handle_sponsored_issue = 'Handle sponsored issue';
+$s_sponsor_issue = 'Sponsor task';
+$s_assign_sponsored_issue = 'Assign sponsored task';
+$s_handle_sponsored_issue = 'Handle sponsored task';
 $s_others = 'Others';
 $s_see_email_addresses_of_other_users = 'See e-mail addresses of other users';
 $s_send_reminders = 'Send reminders';
@@ -1498,13 +1498,13 @@ $s_tag_separate_by = '(Separate by "%1$s")';
 $s_tag_invalid_name = 'Invalid tag name.';
 $s_tag_create_denied = 'Create permission denied.';
 $s_tag_attach_denied = 'Attach permission denied.';
-$s_tag_filter_default = 'Attached Issues (%1$s)';
+$s_tag_filter_default = 'Attached Tasks (%1$s)';
 $s_tag_history_attached = 'Tag Attached';
 $s_tag_history_detached = 'Tag Detached';
 $s_tag_history_renamed = 'Tag Renamed';
 $s_tag_related = 'Related Tags';
-$s_tag_related_issues = 'Shared Issues (%1$s)';
-$s_tag_stats_attached = 'Issues attached: %1$s';
+$s_tag_related_issues = 'Shared Tasks (%1$s)';
+$s_tag_stats_attached = 'Tasks attached: %1$s';
 $s_tag_create = 'Create Tag';
 $s_show_all_tags = 'All';
 
@@ -1517,7 +1517,7 @@ $s_time_tracking_cost_per_hour = 'Cost / Hour';
 $s_time_tracking_cost_per_hour_label = 'Cost / Hour:';
 $s_time_tracking_cost = 'Cost';
 $s_time_tracking_cost_label = 'Cost:';
-$s_total_time_for_issue = 'Total time for issue = %1$s';
+$s_total_time_for_issue = 'Total time for task = %1$s';
 $s_time_tracking_stopwatch_start = 'Start';
 $s_time_tracking_stopwatch_stop = 'Stop';
 $s_time_tracking_stopwatch_reset = 'Reset';
@@ -1528,8 +1528,8 @@ $s_access_denied = 'Access Denied.';
 $s_manage_columns_config = 'Manage Columns';
 $s_all_columns_title = 'All Available Columns';
 $s_csv_columns_title = 'CSV Columns';
-$s_view_issues_columns_title = 'View Issues Columns';
-$s_print_issues_columns_title = 'Print Issues Columns';
+$s_view_issues_columns_title = 'View Tasks Columns';
+$s_print_issues_columns_title = 'Print Tasks Columns';
 $s_excel_columns_title = 'Excel Columns';
 $s_update_columns_as_global_default = 'Update Columns as Global Default for All Projects';
 $s_update_columns_for_current_project = 'Update Columns For Current Project';
@@ -1580,20 +1580,20 @@ $s_month_november = 'November';
 $s_month_december = 'December';
 
 # Timeline Feature Strings
-$s_timeline_issue_created = '<span class="username">%1$s</span> created issue <span class="issue_id">%2$s</span>';
-$s_timeline_issue_file_added = '<span class="username">%1$s</span> attached file <em>%3$s</em> to issue <span class="issue_id">%2$s</span>';
-$s_timeline_issue_file_deleted = '<span class="username">%1$s</span> removed file <em>%3$s</em> from issue <span class="issue_id">%2$s</span>';
+$s_timeline_issue_created = '<span class="username">%1$s</span> created task <span class="issue_id">%2$s</span>';
+$s_timeline_issue_file_added = '<span class="username">%1$s</span> attached file <em>%3$s</em> to task <span class="issue_id">%2$s</span>';
+$s_timeline_issue_file_deleted = '<span class="username">%1$s</span> removed file <em>%3$s</em> from task <span class="issue_id">%2$s</span>';
 $s_timeline_issue_note_created = '<span class="username">%1$s</span> commented on issue <span class="issue_id">%2$s</span>';
-$s_timeline_issue_monitor = '<span class="username">%1$s</span> is monitoring issue <span class="issue_id">%2$s</span>';
-$s_timeline_issue_unmonitor = '<span class="username">%1$s</span> stopped monitoring issue <span class="issue_id">%2$s</span>';
-$s_timeline_issue_tagged = '<span class="username">%1$s</span> tagged issue <span class="issue_id">%2$s</span> with <span class="tag_name">%3$s</span>';
-$s_timeline_issue_untagged = '<span class="username">%1$s</span> removed tag <span class="tag_name">%3$s</span> from issue <span class="issue_id">%2$s</span>';
-$s_timeline_issue_resolved = '<span class="username">%1$s</span> resolved issue <span class="issue_id">%2$s</span>';
-$s_timeline_issue_closed = '<span class="username">%1$s</span> closed issue <span class="issue_id">%2$s</span>';
-$s_timeline_issue_reopened = '<span class="username">%1$s</span> reopened issue <span class="issue_id">%2$s</span>';
-$s_timeline_issue_assigned = '<span class="username">%1$s</span> assigned issue <span class="issue_id">%2$s</span> to <span class="username">%3$s</span>';
-$s_timeline_issue_assigned_to_self = '<span class="username">%1$s</span> picked up issue <span class="issue_id">%2$s</span>';
-$s_timeline_issue_unassigned = '<span class="username">%1$s</span> unassigned issue <span class="issue_id">%2$s</span>';
+$s_timeline_issue_monitor = '<span class="username">%1$s</span> is monitoring task <span class="issue_id">%2$s</span>';
+$s_timeline_issue_unmonitor = '<span class="username">%1$s</span> stopped monitoring task <span class="issue_id">%2$s</span>';
+$s_timeline_issue_tagged = '<span class="username">%1$s</span> tagged task <span class="issue_id">%2$s</span> with <span class="tag_name">%3$s</span>';
+$s_timeline_issue_untagged = '<span class="username">%1$s</span> removed tag <span class="tag_name">%3$s</span> from task <span class="issue_id">%2$s</span>';
+$s_timeline_issue_resolved = '<span class="username">%1$s</span> resolved task <span class="issue_id">%2$s</span>';
+$s_timeline_issue_closed = '<span class="username">%1$s</span> closed task <span class="issue_id">%2$s</span>';
+$s_timeline_issue_reopened = '<span class="username">%1$s</span> reopened task <span class="issue_id">%2$s</span>';
+$s_timeline_issue_assigned = '<span class="username">%1$s</span> assigned task <span class="issue_id">%2$s</span> to <span class="username">%3$s</span>';
+$s_timeline_issue_assigned_to_self = '<span class="username">%1$s</span> picked up task <span class="issue_id">%2$s</span>';
+$s_timeline_issue_unassigned = '<span class="username">%1$s</span> unassigned task <span class="issue_id">%2$s</span>';
 $s_timeline_no_activity = 'No activity within time range.';
 $s_timeline_title = 'Timeline';
 $s_timeline_more = 'More events...';
@@ -1625,7 +1625,7 @@ $MANTIS_ERROR[ERROR_CONFIG_OPT_BAD_SYNTAX] = 'Cannot set configuration option "%
 $MANTIS_ERROR[ERROR_LANG_STRING_NOT_FOUND] = 'String "%1$s" not found.';
 $MANTIS_ERROR[ERROR_BUGNOTE_NOT_FOUND] = 'Note not found.';
 $MANTIS_ERROR[ERROR_DB_FIELD_NOT_FOUND] = 'Database field "%1$s" not found.';
-$MANTIS_ERROR[ERROR_HANDLER_ACCESS_TOO_LOW] = 'Issue handler does not have sufficient access rights to handle issue at this status.';
+$MANTIS_ERROR[ERROR_HANDLER_ACCESS_TOO_LOW] = 'Task handler does not have sufficient access rights to handle task at this status.';
 $MANTIS_ERROR[ERROR_PROJECT_HIERARCHY_DISABLED] = 'Project hierarchy (subprojects) is disabled.';
 $MANTIS_ERROR[ERROR_PROJECT_NOT_FOUND] = 'Project "%1$s" not found.';
 $MANTIS_ERROR[ERROR_PROJECT_NAME_NOT_UNIQUE] = 'A project with that name already exists. Please go back and enter a different name.';
@@ -1645,7 +1645,7 @@ $MANTIS_ERROR[ERROR_USER_CURRENT_PASSWORD_MISMATCH] = 'Current password is incor
 $MANTIS_ERROR[ERROR_GPC_ARRAY_EXPECTED] = 'An array was expected but a string was received for %1$s.';
 $MANTIS_ERROR[ERROR_GPC_ARRAY_UNEXPECTED] = 'A string was expected but an array was received for %1$s.';
 $MANTIS_ERROR[ERROR_GPC_NOT_NUMBER] = 'A number was expected for %1$s.';
-$MANTIS_ERROR[ERROR_BUG_NOT_FOUND] = 'Issue %1$d not found.';
+$MANTIS_ERROR[ERROR_BUG_NOT_FOUND] = 'Task %1$d not found.';
 $MANTIS_ERROR[ERROR_FILTER_NOT_FOUND] = 'Filter %1$s not found.';
 $MANTIS_ERROR[ERROR_EMAIL_INVALID] = 'Invalid e-mail address.';
 $MANTIS_ERROR[ERROR_EMAIL_DISPOSABLE] = 'It is not allowed to use disposable e-mail addresses.';
@@ -1656,8 +1656,8 @@ $MANTIS_ERROR[ERROR_FILE_INVALID_UPLOAD_PATH] = 'Invalid upload path. Directory 
 $MANTIS_ERROR[ERROR_FILE_NO_UPLOAD_FAILURE] = 'No file was uploaded. Please go back and Choose a file before pressing Upload.';
 $MANTIS_ERROR[ERROR_FILE_MOVE_FAILED] = 'Uploaded file could not be moved to the file storage directory. Directory either does not exist or not writable to webserver.';
 $MANTIS_ERROR[ERROR_FILE_NOT_FOUND] = 'Attachment with id "%1$d" not found.';
-$MANTIS_ERROR[ERROR_BUG_DUPLICATE_SELF] = 'You cannot set an issue as a duplicate of itself.';
-$MANTIS_ERROR[ERROR_BUG_REVISION_NOT_FOUND] = 'Issue revision not found.';
+$MANTIS_ERROR[ERROR_BUG_DUPLICATE_SELF] = 'You cannot set an task as a duplicate of itself.';
+$MANTIS_ERROR[ERROR_BUG_REVISION_NOT_FOUND] = 'Task revision not found.';
 $MANTIS_ERROR[ERROR_CUSTOM_FIELD_NOT_FOUND] = 'Custom field not found.';
 $MANTIS_ERROR[ERROR_CUSTOM_FIELD_NAME_NOT_UNIQUE] = 'This is a duplicate name.';
 $MANTIS_ERROR[ERROR_CUSTOM_FIELD_NAME_INVALID] = 'Invalid custom field name "%1$s": commas are not allowed. See "Localizing Custom Field Names" section in the Admin Guide as a workaround.';
@@ -1682,7 +1682,7 @@ $MANTIS_ERROR[ERROR_CATEGORY_NO_ACTION] = 'No copy action was specified.';
 $MANTIS_ERROR[ERROR_CATEGORY_NOT_FOUND] = 'Category not found.';
 $MANTIS_ERROR[ERROR_CATEGORY_NOT_FOUND_FOR_PROJECT] = 'Category "%1$s" not found for project "%2$s".';
 $MANTIS_ERROR[ERROR_CATEGORY_CANNOT_DELETE_DEFAULT] = 'This Category cannot be deleted, because it is defined as "Default Category For Moves".';
-$MANTIS_ERROR[ERROR_CATEGORY_CANNOT_DELETE_HAS_ISSUES] = 'Category "%1$s" cannot be deleted, because it is associated with one or more issues.';
+$MANTIS_ERROR[ERROR_CATEGORY_CANNOT_DELETE_HAS_ISSUES] = 'Category "%1$s" cannot be deleted, because it is associated with one or more tasks.';
 $MANTIS_ERROR[ERROR_VERSION_DUPLICATE] = 'A version with that name already exists.';
 $MANTIS_ERROR[ERROR_VERSION_NOT_FOUND] = 'Version "%1$s" not found.';
 $MANTIS_ERROR[ERROR_USER_NAME_INVALID] = 'The username is invalid. Usernames may only contain Latin letters, numbers, spaces, hyphens, dots, plus signs and underscores.';
@@ -1691,15 +1691,15 @@ $MANTIS_ERROR[ERROR_USER_DOES_NOT_HAVE_REQ_ACCESS] = 'User does not have require
 $MANTIS_ERROR[ERROR_SPONSORSHIP_NOT_ENABLED] = 'Sponsorship support not enabled.';
 $MANTIS_ERROR[ERROR_SPONSORSHIP_NOT_FOUND] = 'Sponsorship %1$d not found.';
 $MANTIS_ERROR[ERROR_SPONSORSHIP_AMOUNT_TOO_LOW] = 'Sponsorship (%1$s) is below minimum amount (%2$s).';
-$MANTIS_ERROR[ERROR_SPONSORSHIP_HANDLER_ACCESS_LEVEL_TOO_LOW] = 'Handler does not have the required access level to handle sponsored issues.';
-$MANTIS_ERROR[ERROR_SPONSORSHIP_ASSIGNER_ACCESS_LEVEL_TOO_LOW] = 'Access Denied: Assigning sponsored issues requires higher access level.';
+$MANTIS_ERROR[ERROR_SPONSORSHIP_HANDLER_ACCESS_LEVEL_TOO_LOW] = 'Handler does not have the required access level to handle sponsored tasks.';
+$MANTIS_ERROR[ERROR_SPONSORSHIP_ASSIGNER_ACCESS_LEVEL_TOO_LOW] = 'Access Denied: Assigning sponsored tasks requires higher access level.';
 $MANTIS_ERROR[ERROR_SPONSORSHIP_SPONSOR_NO_EMAIL] = 'Sponsor has not provided an e-mail address. Please update your profile.';
 $MANTIS_ERROR[ERROR_CONFIG_OPT_INVALID] = 'Configuration option "%1$s" has invalid value "%2$s".';
-$MANTIS_ERROR[ERROR_BUG_READ_ONLY_ACTION_DENIED] = 'The action cannot be performed because issue "%1$d" is read-only.';
-$MANTIS_ERROR[ERROR_BUG_RESOLVE_DEPENDANTS_BLOCKING] = 'This issue cannot be resolved until all dependant issues have been resolved. Ask your system administrator for project access if you do not see any dependant issue.';
+$MANTIS_ERROR[ERROR_BUG_READ_ONLY_ACTION_DENIED] = 'The action cannot be performed because task "%1$d" is read-only.';
+$MANTIS_ERROR[ERROR_BUG_RESOLVE_DEPENDANTS_BLOCKING] = 'This task cannot be resolved until all dependant tasks have been resolved. Ask your system administrator for project access if you do not see any dependant task.';
 $MANTIS_ERROR[ERROR_RELATIONSHIP_NOT_FOUND] = 'Relationship not found.';
-$MANTIS_ERROR[ERROR_RELATIONSHIP_ACCESS_LEVEL_TO_DEST_BUG_TOO_LOW] = 'Access denied: The issue %1$d requires higher access level.';
-$MANTIS_ERROR[ERROR_RELATIONSHIP_SAME_BUG] = 'An issue cannot be related to itself.';
+$MANTIS_ERROR[ERROR_RELATIONSHIP_ACCESS_LEVEL_TO_DEST_BUG_TOO_LOW] = 'Access denied: The task %1$d requires higher access level.';
+$MANTIS_ERROR[ERROR_RELATIONSHIP_SAME_BUG] = 'An task cannot be related to itself.';
 $MANTIS_ERROR[ERROR_SIGNUP_NOT_MATCHING_CAPTCHA] = 'Confirmation hash does not match. Please retry.';
 $MANTIS_ERROR[ERROR_LOST_PASSWORD_NOT_ENABLED] = 'The "lost your password" feature is not available.';
 $MANTIS_ERROR[ERROR_LOST_PASSWORD_NO_EMAIL_SPECIFIED] = 'You must provide an e-mail address in order to reset the password.';
@@ -1711,8 +1711,8 @@ $MANTIS_ERROR[ERROR_PAGE_REDIRECTION] = 'Page redirection error, ensure that the
 $MANTIS_ERROR[ERROR_TAG_NOT_FOUND] = 'Could not find tag "%1$s".';
 $MANTIS_ERROR[ERROR_TAG_DUPLICATE] = 'A tag named "%1$s" already exists.';
 $MANTIS_ERROR[ERROR_TAG_NAME_INVALID] = 'Tag name "%1$s" is invalid.';
-$MANTIS_ERROR[ERROR_TAG_NOT_ATTACHED] = 'That tag is not attached to that issue.';
-$MANTIS_ERROR[ERROR_TAG_ALREADY_ATTACHED] = 'That tag already attached to that issue.';
+$MANTIS_ERROR[ERROR_TAG_NOT_ATTACHED] = 'That tag is not attached to that task.';
+$MANTIS_ERROR[ERROR_TAG_ALREADY_ATTACHED] = 'That tag already attached to that task.';
 $MANTIS_ERROR[ERROR_TOKEN_NOT_FOUND] = 'Token could not be found.';
 $MANTIS_ERROR[ERROR_EVENT_UNDECLARED] = 'Event "%1$s" has not yet been declared.';
 $MANTIS_ERROR[ERROR_PLUGIN_NOT_REGISTERED] = 'Plugin "%1$s" is not registered.';
@@ -1740,9 +1740,9 @@ $MANTIS_ERROR[ERROR_INVALID_DATE_FORMAT] = 'Invalid date format.';
 $MANTIS_ERROR[ERROR_INVALID_RESOLUTION] = 'Resolution "%1$s" is not allowed for status "%2$s".';
 $MANTIS_ERROR[ERROR_UPDATING_TIMEZONE] = 'Unable to update timezone.';
 $MANTIS_ERROR[ERROR_DEPRECATED_SUPERSEDED] = 'Deprecated functionality: "%1$s", use "%2$s" instead.';
-$MANTIS_ERROR[ERROR_DISPLAY_USER_ERROR_INLINE] = 'Warning: The system is configured to display MantisBT errors (E_USER_ERROR) inline. Program execution will continue; this may lead to system/data integrity issues.';
+$MANTIS_ERROR[ERROR_DISPLAY_USER_ERROR_INLINE] = 'Warning: The system is configured to display MantisBT errors (E_USER_ERROR) inline. Program execution will continue; this may lead to system/data integrity tasks.';
 $MANTIS_ERROR[ERROR_TYPE_MISMATCH] = 'Data Type mismatch. Enable detailed error messages for further information.';
-$MANTIS_ERROR[ERROR_BUG_CONFLICTING_EDIT] = 'This issue has been updated by another user, please return to the issue and submit your changes again.';
+$MANTIS_ERROR[ERROR_BUG_CONFLICTING_EDIT] = 'This task has been updated by another user, please return to the task and submit your changes again.';
 $MANTIS_ERROR[ERROR_SPAM_SUSPECTED] = 'You have reached the allowed activity limit of %d events within the last %d seconds; your action has been blocked to avoid spam, please try again later.';
 $MANTIS_ERROR[ERROR_FIELD_TOO_LONG] = 'Field "%1$s" must be shorter or equal to %2$d characters long.';
 $MANTIS_ERROR[ERROR_API_TOKEN_NAME_NOT_UNIQUE] = 'API token name "%s" is already being used. Please go back and select another one.';
