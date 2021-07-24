@@ -15,6 +15,7 @@ plugins/*
 !plugins/MantisGraph
 !plugins/XmlImportExport
 !plugins/Gravatar
+!plugins/MantisBTModernDarkTheme
 
 # IDE/Editor temporary files
 *~
@@ -58,3 +59,4 @@ custom_functions_inc.php
 custom_relationships_inc.php
 custom_strings_inc.php
 api/soap/mc_config_inc.php
+doc/en-US
