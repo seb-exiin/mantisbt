@@ -454,6 +454,12 @@ select, input {
   border-top-width: 1px;
   border-bottom-width: 1px;
 }
+.skin-3 .nav-list > li.active:first-child {
+  border-color: #515151 !important;
+  border-top-width: 0px !important;
+  border-bottom-width: 1px;
+}
+
 
 .skin-3 .nav-list > li:hover + li {
   border-top-color: transparent !important;
@@ -484,7 +490,7 @@ select, input {
 .skin-3 .sidebar-toggle {
   background-color: inherit !important;
   border-color: #3c3c3c !important;
-  color: white !important;
+  color: #515151 !important;
   border-bottom: 0 !important;
   padding: 20px 0 !important;
 }
@@ -492,8 +498,8 @@ select, input {
 .sidebar-toggle > .ace-icon,
 .skin-3 .sidebar-toggle > .ace-icon {
   background-color: #212326 !important;
-  border-color: white !important;
-  color: white !important;
+  border-color: #515151 !important;
+  color: #515151 !important;
   position: relative !important;
   width: 25px;
   height: 25px;
