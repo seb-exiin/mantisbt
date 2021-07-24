@@ -15,7 +15,7 @@ class UserMenu extends AbstractMenu {
         'Profile',
         'Admin',
         'Register',
-        'Login',
+       // 'Login',
     );
 
 }
