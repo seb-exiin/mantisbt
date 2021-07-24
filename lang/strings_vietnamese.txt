@@ -25,7 +25,7 @@
  * **                                                                  **
  * **                      DO NOT UPDATE MANUALLY                      **
  * **                                                                  **
- * ** To improve a translation please visit http://translatewiki.net   **
+ * ** To improve a translation please visit https://translatewiki.net  **
  * ** Detailed instructions on how to create or update translations at **
  * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
  * **********************************************************************
@@ -33,7 +33,7 @@
 /** Vietnamese (Tiếng Việt)
  * 
  * See the qqq 'language' for message documentation incl. usage of parameters
- * To improve a translation please visit http://translatewiki.net
+ * To improve a translation please visit https://translatewiki.net
  *
  * @ingroup Language
  * @file
@@ -705,7 +705,7 @@ $s_add_file = 'Thêm tập tin';
 $s_project_document_updated = 'Dự án cập nhật thành công.';
 $s_project_user_added_msg = 'Thêm thành công người dùng vào dự án.';
 $s_project_removed_user_msg = 'Loại bỏ thành công người dùng khỏi dự án.';
-$s_remove_user_sure_msg = 'Bạn có chắc chắn muốn xóa người dùng này?';
+$s_remove_user_sure_msg = 'Bạn có chắc chắn muốn xóa người dùng "%1$s" khỏi dự án "%2$s"?';
 $s_remove_all_users_sure_msg = 'Bạn có chắc chắn muốn xóa tất cả những người sử dụng của dự án này?';
 $s_remove_all_users_button = 'Loại bỏ tất cả người dùng';
 $s_add_user_title = 'Thêm người dùng vào dự án';

@@ -894,6 +894,7 @@ $g_language_choices_arr = array(
 	'dutch',
 	'english',
 	'estonian',
+	'esperanto',
 	'finnish',
 	'french',
 	'galician',
@@ -901,6 +902,7 @@ $g_language_choices_arr = array(
 	'german',
 	'greek',
 	'hebrew',
+	'hindi',
 	'hungarian',
 	'icelandic',
 	'interlingua',
@@ -921,6 +923,7 @@ $g_language_choices_arr = array(
 	'ripoarisch',
 	'romanian',
 	'russian',
+	'saraiki',
 	'serbian',
 	'serbian_latin',
 	'slovak',
@@ -959,12 +962,15 @@ $g_language_auto_map = array(
 	'da' => 'danish',
 	'nl-be, nl' => 'dutch',
 	'en-us, en-gb, en-au, en' => 'english',
+	'eo' => 'esperanto',
 	'et' => 'estonian',
 	'fi' => 'finnish',
 	'fr-ca, fr-be, fr-ch, fr' => 'french',
 	'gl' => 'galician',
 	'de-de, de-at, de-ch, de' => 'german',
+	'el' => 'greek',
 	'he' => 'hebrew',
+	'hi' => 'hindi',
 	'hu' => 'hungarian',
 	'is' => 'icelandic',
 	'ia' => 'interlingua',
@@ -986,6 +992,7 @@ $g_language_auto_map = array(
 	'ksh' => 'ripoarisch',
 	'ro-mo, ro' => 'romanian',
 	'ru-mo, ru-ru, ru-ua, ru' => 'russian',
+	'skr' => 'saraiki', # skr does not actually exist as a browser language code
 	'sr' => 'serbian',
 	'sr-latn' => 'serbian_latin',
 	'sk' => 'slovak',
@@ -996,6 +1003,7 @@ $g_language_auto_map = array(
 	'tl' => 'tagalog',
 	'tr' => 'turkish',
 	'uk' => 'ukrainian',
+	'ur' => 'urdu',
 	'vi' => 'vietnamese',
 	'vo' => 'volapuk',
 	'diq' => 'zazaki',
@@ -3952,7 +3960,7 @@ $g_wiki_enable = OFF;
 
 /**
  * Wiki Engine.
- * Supported engines: 'dokuwiki', 'mediawiki', 'twiki', 'wikka', 'xwiki'
+ * Supported engines: 'dokuwiki', 'mediawiki', 'twiki', 'wackowiki', 'wikka', 'xwiki'
  * @global string $g_wiki_engine
  */
 $g_wiki_engine = '';
@@ -4137,7 +4145,7 @@ $g_plugins_enabled = ON;
 $g_plugin_path = $g_absolute_path . 'plugins' . DIRECTORY_SEPARATOR;
 
 /**
- * management threshold.
+ * Threshold needed to manage plugins
  * @global integer $g_manage_plugin_threshold
  */
 $g_manage_plugin_threshold = ADMINISTRATOR;

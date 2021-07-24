@@ -25,7 +25,7 @@
  * **                                                                  **
  * **                      DO NOT UPDATE MANUALLY                      **
  * **                                                                  **
- * ** To improve a translation please visit http://translatewiki.net   **
+ * ** To improve a translation please visit https://translatewiki.net  **
  * ** Detailed instructions on how to create or update translations at **
  * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
  * **********************************************************************
@@ -33,7 +33,7 @@
 /** Danish (dansk)
  * 
  * See the qqq 'language' for message documentation incl. usage of parameters
- * To improve a translation please visit http://translatewiki.net
+ * To improve a translation please visit https://translatewiki.net
  *
  * @ingroup Language
  * @file
@@ -793,7 +793,7 @@ $s_add_file = 'Tilføj fil';
 $s_project_document_updated = 'Projektet er blevet opdateret';
 $s_project_user_added_msg = 'Bruger tilføjet projektet.';
 $s_project_removed_user_msg = 'Bruger fjernet fra projektet.';
-$s_remove_user_sure_msg = 'Er du sikker på at du vil fjerne denne bruger?';
+$s_remove_user_sure_msg = 'Er du sikker på at du vil fjerne brugeren "%1$s" fra projekt(et/erne) "%2$s"?';
 $s_remove_user_button = 'Fjern brugeren';
 $s_remove_all_users_sure_msg = 'Er du sikker på at du vil fjerne alle brugere fra dette projekt?';
 $s_remove_all_users_button = 'Fjern alle brugere';
@@ -1010,7 +1010,7 @@ $s_changelog = 'Ændringslog';
 $s_changelog_empty = 'Ingen versionshistorik tilgængelig';
 $s_changelog_empty_manager = 'Ingen tilgængelig information om ændringsloggen. Fejlrapporter inkluderes når projekter har versioner og fejlrapporter registreres med »rettet i version« angivet.';
 $s_roadmap = 'Køreplan';
-$s_resolved_progress = '%1$d af %2$d rapport(er) løst. Fremskridt (%3$d%%).';
+$s_resolved_progress = '%1$d af %2$d rapport(er) løst.';
 $s_roadmap_empty = 'Ingen køreplansinformation er tilgængelig';
 $s_roadmap_empty_manager = 'Ingen køreplansinformation er tilgængelige. Fejlrapporter inkluderes når projekter har versioner og fejlrapporter har »target version« angivet.';
 $s_http_auth_realm = 'Log på MantisBT';

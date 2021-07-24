@@ -25,31 +25,21 @@
  * **                                                                  **
  * **                      DO NOT UPDATE MANUALLY                      **
  * **                                                                  **
- * ** To improve a translation please visit http://translatewiki.net   **
+ * ** To improve a translation please visit https://translatewiki.net  **
  * ** Detailed instructions on how to create or update translations at **
  * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
  * **********************************************************************
  */
-/** Esperanto (Esperanto)
+/** Hindi (हिन्दी)
  * 
  * See the qqq 'language' for message documentation incl. usage of parameters
- * To improve a translation please visit http://translatewiki.net
+ * To improve a translation please visit https://translatewiki.net
  *
  * @ingroup Language
  * @file
  *
- * @author Mirin
+ * @author Ajaysajay
  */
 
-$s_plugin_format_title = 'MantisBT-Aranĝado';
-$s_plugin_format_description = 'Oficiala teksto-traktanta kaj aranĝanta kromprogramo.';
-$s_plugin_format_config = 'Agordo';
-$s_plugin_format_process_text = 'Traktado de Teksto';
-$s_plugin_format_process_text_warning_notice = 'Ne malŝaltu, krom se vi vere konas tion kion vi faras. Malŝaltado ebligas interretejan programetan atakon (XSS).';
-$s_plugin_format_process_urls = 'Traktado de Retadreso';
-$s_plugin_format_process_buglinks = 'Internaj ligiloj de MantisBT (Problemoj kaj Notoj pri Problemoj)';
-$s_plugin_format_process_buglinks_info = 'Via agordo difinas la etikedon <em>Problemo</em> kiel "<literal>%s</literal>" kaj la etikedo <em>Noto pri Problemo</em> kiel "<literal>%s</literal>"';
-$s_plugin_format_process_markdown = 'Traktado de Markdown';
-$s_plugin_format_process_markdown_info = 'Stiligo per Markdown — teksto-aranĝanta sintakso por konvertado al HTML.';
-$s_plugin_format_enabled = 'Ŝaltita';
-$s_plugin_format_disabled = 'Malŝaltita';
+$s_plugin_Gravatar_title = 'ग्रावतार द्वारा रूप-चित्र';
+$s_plugin_Gravatar_description = 'एक युक्ति जो प्रयोक्ता के ई-मेल के आधार पर अवतार-सेवा द्वारा उनका रूप-चित्र प्रदर्शित करती है।';

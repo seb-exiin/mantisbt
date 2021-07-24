@@ -25,7 +25,7 @@
  * **                                                                  **
  * **                      DO NOT UPDATE MANUALLY                      **
  * **                                                                  **
- * ** To improve a translation please visit http://translatewiki.net   **
+ * ** To improve a translation please visit https://translatewiki.net  **
  * ** Detailed instructions on how to create or update translations at **
  * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
  * **********************************************************************
@@ -33,7 +33,7 @@
 /** Russian (русский)
  * 
  * See the qqq 'language' for message documentation incl. usage of parameters
- * To improve a translation please visit http://translatewiki.net
+ * To improve a translation please visit https://translatewiki.net
  *
  * @ingroup Language
  * @file
@@ -66,6 +66,7 @@
  * @author Redredsonia
  * @author Sabbah
  * @author Semen
+ * @author Thothsum
  * @author Vlad5250
  * @author Volkov
  * @author Wileyfoxyx
@@ -361,8 +362,14 @@ $s_timezone = 'Часовой пояс';
 $s_prefs_reset_msg = 'Настройки сброшены...';
 $s_prefs_updated_msg = 'Настройки изменены...';
 $s_select_profile = 'Выбор профиля';
+$s_add_profile = 'Добавить профиль';
 $s_edit_profile = 'Изменить профиль';
+$s_update_profile = 'Обновить профиль';
 $s_delete_profile = 'Удалить профиль';
+$s_delete_profile_confirm_msg = 'Вы уверены, что хотите удалить профиль «%1$s»?';
+$s_global_profile = 'Глобальный профиль';
+$s_default_profile = 'Профиль по умолчанию';
+$s_profile_description = 'Описание системы';
 $s_my_sponsorship = 'Спонсирование';
 $s_update_sponsorship_button = 'Изменить состояние оплаты';
 $s_no_sponsored = 'Не найдено спонсируемых задач, назначенных вам.';
@@ -489,6 +496,7 @@ $s_bugnote_updated_msg = 'Комментарий изменен...';
 $s_last_edited = 'Последние изменения:';
 $s_hide_content = 'Скрыть содержимое';
 $s_show_content = 'Показать содержимое';
+$s_file_icon_description = 'иконка файла %1$s';
 $s_unknown_file_extension = 'неизвестное';
 $s_webmaster_contact_information = 'Для получения помощи вы можете <a href="mailto:%1$s" title="Написать веб-мастеру по эл. почте">связаться с администратором</a>.';
 $s_total_queries_executed = 'Всего выполнено запросов: %1$d';
@@ -640,6 +648,7 @@ $s_resolved_status = 'Состояние для решенных задач';
 $s_readonly_status = 'Состояние для перевода задачи в режим "только для чтения"';
 $s_reopen_status = 'Состояние для переоткрытой задачи';
 $s_reopen_resolution = 'Вид решения для переоткрытой задачи';
+$s_limit_view_unless_threshold_option = 'Просмотр проблем других пользователей (если не установлен, доступ к проблемам, о которых сообщается, которые обрабатываются или отслеживаются пользователем будет ограничен)';
 $s_config_delete_sure = 'Вы уверены, что хотите удалить настройки для %1$s в проекте %2$s?';
 $s_delete_config_button = 'Удалить настройки';
 $s_configuration_report = 'Отчет о конфигурации';
@@ -655,9 +664,11 @@ $s_set_configuration_option_action_create = 'Создать параметр';
 $s_set_configuration_option_action_edit = 'Изменение параметра конфигурации';
 $s_set_configuration_option_action_clone = 'Клонировать параметр';
 $s_set_configuration_option_action_view = 'Просмотр параметра конфигурации';
+$s_show_all_complex = 'Показать значение для всех параметров "%1$s"';
 $s_plugin = 'Плагин';
 $s_plugins_installed = 'Установленные плагины';
 $s_plugins_available = 'Доступные плагины';
+$s_plugins_missing = 'Отсутствующие или неверные плагины';
 $s_plugin_description = 'Описание';
 $s_plugin_problem_description = 'Описание проблемы';
 $s_plugin_author = 'Автор: %1$s';
@@ -676,6 +687,10 @@ $s_plugin_key_met = 'плагин готов';
 $s_plugin_key_unmet = 'неустановленные зависимости';
 $s_plugin_key_dated = 'устаревшие зависимости';
 $s_plugin_key_upgrade = 'необходимо обновление';
+$s_plugin_invalid_description = 'Неверный плагин';
+$s_plugin_invalid_status_message = 'Следующие обязательные свойства не определены в классе подключаемого плагина: %s.';
+$s_plugin_missing_description = 'Отсутствующий плагин';
+$s_plugin_missing_status_message = 'Плагин установлен в базе данных Mantis, но не может быть загружен.';
 $s_project_added_msg = 'Проект добавлен...';
 $s_category_added_msg = 'Категория добавлена...';
 $s_category_deleted_msg = 'Категория удалена...';
@@ -817,7 +832,7 @@ $s_add_file = 'Добавить файл';
 $s_project_document_updated = 'Проект изменен';
 $s_project_user_added_msg = 'Пользователь успешно добавлен в проект.';
 $s_project_removed_user_msg = 'Пользователь удалён из проекта.';
-$s_remove_user_sure_msg = 'Вы уверены, что хотите удалить пользователя "%1$s" из проекта "%2$s"?';
+$s_remove_user_sure_msg = 'Вы уверены, что хотите удалить пользователя «%1$s» из «%2$s»?';
 $s_remove_user_button = 'Удалить пользователя';
 $s_remove_all_users_sure_msg = 'Вы уверены, что хотите удалить всех пользователей этого проекта?';
 $s_remove_all_users_button = 'Удалить всех пользователей';
@@ -1040,7 +1055,7 @@ $s_changelog = 'Журнал изменений';
 $s_changelog_empty = 'Журнал изменений пуст';
 $s_changelog_empty_manager = 'Журнал изменений пуст. Задачи указываются в журнале, когда в проекте настроены версии, и при закрытии задач указывается «исправлено в версии».';
 $s_roadmap = 'План — дорожная карта';
-$s_resolved_progress = '%1$d из %2$d задач решено. Прогресс (%3$d%%).';
+$s_resolved_progress = '%1$d из %2$d задач решено.';
 $s_roadmap_empty = 'Нет информации по плану развития';
 $s_roadmap_empty_manager = 'План-дорожная карта пуст. Задачи включаются в план, когда в проекте настроены версии, а в задачах указывается «целевая версия».';
 $s_http_auth_realm = 'Вход в MantisBT';
@@ -1069,6 +1084,8 @@ $s_dependency_graph = 'Граф зависимостей';
 $s_vertical = 'Вертикальный';
 $s_horizontal = 'Горизонтальный';
 $s_view_issue = 'Просмотр задачи';
+$s_show_summary = 'Показать описание';
+$s_hide_summary = 'Скрыть описание';
 $s_perm_rpt_capability = 'Возможность';
 $s_view = 'Просмотр:';
 $s_issues = 'Задачи';
@@ -1203,6 +1220,7 @@ $s_copy_columns_to = 'Скопировать столбцы в';
 $s_due_date = 'Дата окончания';
 $s_overdue = 'Просрочено';
 $s_overdue_since = 'Просрочено с %1$s';
+$s_overdue_days = 'Просрочено через %1$d дн.';
 $s_view_account_title = 'Информация о пользователе';
 $s_manage_user = 'Изменить учётную запись';
 $s_label = '%1$:';
@@ -1403,9 +1421,11 @@ $s_load = 'Загрузить';
 $s_apply_changes = 'Применить изменения';
 $s_undo = 'Отменить';
 $s_edit = 'Изменить';
+$s_submit = 'Отправить';
 $s_update = 'Изменить';
 $s_delete = 'Удалить';
 $s_make_default = 'Использовать по умолчанию';
+$s_clear_default = 'Очистить по умолчанию';
 $s_print = 'Печать';
 $s_jump = 'Перейти';
 $s_change = 'Изменить';

@@ -25,7 +25,7 @@
  * **                                                                  **
  * **                      DO NOT UPDATE MANUALLY                      **
  * **                                                                  **
- * ** To improve a translation please visit http://translatewiki.net   **
+ * ** To improve a translation please visit https://translatewiki.net  **
  * ** Detailed instructions on how to create or update translations at **
  * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
  * **********************************************************************
@@ -33,7 +33,7 @@
 /** Swedish (svenska)
  * 
  * See the qqq 'language' for message documentation incl. usage of parameters
- * To improve a translation please visit http://translatewiki.net
+ * To improve a translation please visit https://translatewiki.net
  *
  * @ingroup Language
  * @file
@@ -484,6 +484,8 @@ $s_bugnote_updated_msg = 'Meddelandet har uppdaterats...';
 $s_last_edited = 'Senast redigerad:';
 $s_hide_content = 'Dölj innehåll';
 $s_show_content = 'Visa innehåll';
+$s_file_icon_description = '%1$s filikon';
+$s_unknown_file_extension = 'okänd';
 $s_webmaster_contact_information = 'Kontakta <a href="mailto:%1$s" title="Kontakta webbansvarig via e-post.">administratör</a> för hjälp';
 $s_total_queries_executed = 'Totalt antal förfrågningar utförda: %1$d';
 $s_unique_queries_executed = 'Unika förfrågningar utförda: %1$d';
@@ -500,7 +502,7 @@ $s_warning_default_administrator_account_present = '<strong>Varning:</strong> Du
 $s_warning_admin_directory_present = '<strong>Varning:</strong> Katalogen "admin" bör tas bort eller begränsa dess åtkomst.';
 $s_warning_change_setting = '<strong>Varning:</strong> "%1$s" är inte inställd till sitt standardvärde (%2$s).';
 $s_warning_security_hazard = 'Detta är en potentiell säkerhetsrisk som kan exponera känslig information.';
-$s_warning_integrity_hazard = 'Detta kommer att leda till att MantisBT fortsätter när fel uppstår och kan leda till system-/dataintegritetsärende.';
+$s_warning_integrity_hazard = 'Detta kommer att leda till att MantisBT fortsätter när fel uppstår och kan leda till system-/dataintegritetsärenden.';
 $s_warning_debug_email = '<strong>Varning:</strong> "<code>debug_email</code>" är inte inställd på <code>OFF</code>, alla e-postmeddelanden skickas till "%1$s".';
 $s_error_database_no_schema_version = '<strong>Fel:</strong> Versionen för ditt databasschema är 0. Detta kan inträffa när databasen är korrupt eller värdet för "database_version" inte kunde hämtas från konfigurationstabellen eller när databasstrukturen är från en föråldrad version av MantisBT (pre 1.0.0).';
 $s_error_database_version_out_of_date_2 = '<strong>Varning:</strong> Databasstrukturen kan vara föråldrad. Vänligen uppgradera <a href="admin/install.php">här</a> innan du loggar in.';
@@ -532,7 +534,7 @@ $s_mantis_version = 'Version av MantisBT';
 $s_schema_version = 'Version av schema';
 $s_site_path = 'Sökväg till webbplats';
 $s_core_path = 'Kärnsökväg';
-$s_plugin_path = 'Sökväg till insticksmoduler';
+$s_plugin_path = 'Sökväg till insticksprogram';
 $s_created_user_part1 = 'Skapade användare';
 $s_created_user_part2 = 'med en åtkomstnivån av';
 $s_create_new_account_title = 'Skapa ett nytt användarkonto';
@@ -635,7 +637,7 @@ $s_readonly_status = 'Status där ett ärende blir skrivskyddat';
 $s_reopen_status = 'Status att sätta ett återöppnat ärende till';
 $s_reopen_resolution = 'Lösning som ett återöppnat ärende sätts till';
 $s_limit_view_unless_threshold_option = 'Visa andra användares rapporter (om inte inställt kommer åtkomsten att begränsas till rapporter rapporterade, hanterade eller visade av användaren)';
-$s_config_delete_sure = 'Är du säker på att du vill ta bort inställningarna för:';
+$s_config_delete_sure = 'Är du säker på att du vill ta bort inställningarna för %1$s i projekt %2$s?';
 $s_delete_config_button = 'Ta bort inställningar';
 $s_configuration_report = 'Konfigurationsrapport';
 $s_database_configuration = 'Databaskonfiguration';
@@ -654,6 +656,7 @@ $s_show_all_complex = 'Visa värde för alla "%1$s"-alternativ';
 $s_plugin = 'Insticksprogram';
 $s_plugins_installed = 'Installerade insticksprogram';
 $s_plugins_available = 'Tillgängliga insticksprogram';
+$s_plugins_missing = 'Insticksprogram saknas eller är ogiltiga';
 $s_plugin_description = 'Beskrivning';
 $s_plugin_author = 'Författare: %1$s';
 $s_plugin_url = 'Webbplats:';
@@ -666,11 +669,16 @@ $s_plugin_install = 'Installera';
 $s_plugin_upgrade = 'Uppgradera';
 $s_plugin_uninstall = 'Avinstallera';
 $s_plugin_uninstall_message = 'Är du säker att du vill avinstallera insticksprogrammet "%1$s"?';
+$s_plugin_remove_message = 'Är du säker på att du vill ta bort insticksprogrammet "%1$s" som saknas eller är ogiltigt?';
 $s_plugin_key_label = 'Nyckel:';
-$s_plugin_key_met = 'instickprogrammet redo';
+$s_plugin_key_met = 'insticksprogrammet redo';
 $s_plugin_key_unmet = 'beroende saknas';
 $s_plugin_key_dated = 'föråldrade beroenden';
 $s_plugin_key_upgrade = 'uppgradering behövs';
+$s_plugin_invalid_description = 'Ogiltigt insticksprogram';
+$s_plugin_invalid_status_message = 'Följande obligatoriska egenskaper definieras inte i insticksprogrammets klass: %s.';
+$s_plugin_missing_description = 'Insticksprogram saknas';
+$s_plugin_missing_status_message = 'Insticksprogrammet är installerat i Mantis databas, men kunde inte laddas.';
 $s_project_added_msg = 'Projektet har lagts till...';
 $s_category_added_msg = 'Kategorin har lagts till...';
 $s_category_deleted_msg = 'Kategorin har tagits bort...';
@@ -812,7 +820,7 @@ $s_add_file = 'Lägg till fil';
 $s_project_document_updated = 'Uppdaterade projektet';
 $s_project_user_added_msg = 'Lade till användaren till projektet';
 $s_project_removed_user_msg = 'Tog bort användaren från projektet';
-$s_remove_user_sure_msg = 'Är du säker på att du vill ta bort användaren?';
+$s_remove_user_sure_msg = 'Är du säker på att du vill ta bort användaren "%1$s" från projekt "%2$s"?';
 $s_remove_user_button = 'Ta bort användaren';
 $s_remove_all_users_sure_msg = 'Är du säker på att du vill ta bort alla användare i detta projekt?';
 $s_remove_all_users_button = 'Ta bort alla användare';
@@ -1132,10 +1140,10 @@ $s_email_on_updated = 'E-post vid uppdatering';
 $s_email_on_monitor = 'Skicka e-post när användaren börjar visa';
 $s_view_tags = 'Visa taggar tillagda till en bugg';
 $s_attach_tags = 'Bifoga taggar till en bugg';
-$s_detach_tags = 'Ta bort taggar från en bygg';
+$s_detach_tags = 'Ta bort taggar från en bugg';
 $s_detach_own_tags = 'Ta bort taggar tillagda av samma användare';
 $s_create_new_tags = 'Skapa nya taggar';
-$s_edit_tags = 'Redigera taggnamn och beskrivningar';
+$s_edit_tags = 'Redigera taggnamn och -beskrivningar';
 $s_edit_own_tags = 'Redigera taggar skapade av samma användare';
 $s_loading = 'Laddar...';
 $s_between_date = 'Mellan';
@@ -1241,7 +1249,7 @@ $s_timeline_issue_note_created = '<span class="username">%1$s</span> kommenterad
 $s_timeline_issue_monitor = '<span class="username">%1$s</span> övervakar ärendet <span class="issue_id">%2$s</span>';
 $s_timeline_issue_unmonitor = '<span class="username">%1$s</span> slutade övervaka ärendet <span class="issue_id">%2$s</span>';
 $s_timeline_issue_tagged = '<span class="username">%1$s</span> taggade ärendet <span class="issue_id">%2$s</span> med <span class="tag_name">%3$s</span>';
-$s_timeline_issue_untagged = '<span class="username">%1$s</span> tog bort <span class="tag_name">%3$s</span> från ärendet <span class="issue_id">%2$s</span>';
+$s_timeline_issue_untagged = '<span class="username">%1$s</span> tog bort taggen <span class="tag_name">%3$s</span> från ärendet <span class="issue_id">%2$s</span>';
 $s_timeline_issue_resolved = '<span class="username">%1$s</span> löste ärendet <span class="issue_id">%2$s</span>';
 $s_timeline_issue_closed = '<span class="username">%1$s</span> stängde ärendet <span class="issue_id">%2$s</span>';
 $s_timeline_issue_reopened = '<span class="username">%1$s</span> återöppnade ärendet <span class="issue_id">%2$s</span>';
@@ -1267,9 +1275,9 @@ $MANTIS_ERROR[ERROR_UPLOAD_FAILURE] = 'Uppladdning av filen misslyckades. Filen 
 $MANTIS_ERROR[ERROR_FILE_TOO_BIG] = 'Uppladdning av filen misslyckades. Det beror troligen på att filen var större än vad denna PHP-installation tillåter.';
 $MANTIS_ERROR[ERROR_GPC_VAR_NOT_FOUND] = 'En obligatoriskt parameter för den här sidan (%1$s) kunde inte hittas.';
 $MANTIS_ERROR[ERROR_USER_NAME_NOT_UNIQUE] = 'Användarnamnet används redan. Gå tillbaka och välj ett annat användarnamn.';
-$MANTIS_ERROR[ERROR_USER_EMAIL_NOT_UNIQUE] = 'E-postadressen används redan. Gå tillbaka och välj ett annat.';
+$MANTIS_ERROR[ERROR_USER_EMAIL_NOT_UNIQUE] = 'E-postadressen används redan. Gå tillbaka och välj en annan.';
 $MANTIS_ERROR[ERROR_CONFIG_OPT_NOT_FOUND] = 'Konfigurationsvalet \'%1$s\' kunde inte hittas.';
-$MANTIS_ERROR[ERROR_CONFIG_OPT_CANT_BE_SET_IN_DB] = 'Konfigurationsvalet \'%1$s\' kan inte användas i databasen.  Det måste skrivas i config_inc.php.';
+$MANTIS_ERROR[ERROR_CONFIG_OPT_CANT_BE_SET_IN_DB] = 'Konfigurationsvalet "%1$s" kan inte användas i databasen. Det måste skrivas i config_inc.php.';
 $MANTIS_ERROR[ERROR_CONFIG_OPT_BAD_SYNTAX] = 'Kan inte ställa in konfigurationsalternativ för "%1$s": %2$s';
 $MANTIS_ERROR[ERROR_LANG_STRING_NOT_FOUND] = 'Strängen "%1$s" kunde inte hittas.';
 $MANTIS_ERROR[ERROR_BUGNOTE_NOT_FOUND] = 'Meddelandet hittades inte.';
@@ -1301,7 +1309,7 @@ $MANTIS_ERROR[ERROR_EMAIL_DISPOSABLE] = 'Det är inte tillåtet att använda kas
 $MANTIS_ERROR[ERROR_USER_PROFILE_NOT_FOUND] = 'Profilen kan inte hittas.';
 $MANTIS_ERROR[ERROR_FILE_NOT_ALLOWED] = 'Filtypen är inte tillåten för uppladdningar.';
 $MANTIS_ERROR[ERROR_FILE_DUPLICATE] = 'Filen finns redan.  Var god ta bort den andra filen först.';
-$MANTIS_ERROR[ERROR_FILE_INVALID_UPLOAD_PATH] = 'Ogiltig sökväg för skickade filer.  Katalogen finns inte eller är inte skrivbar av webservern.';
+$MANTIS_ERROR[ERROR_FILE_INVALID_UPLOAD_PATH] = 'Ogiltig sökväg för skickade filer. Katalogen finns inte eller är inte skrivbar av webservern.';
 $MANTIS_ERROR[ERROR_FILE_NO_UPLOAD_FAILURE] = 'Ingen fil skickades. Gå tillbaka och välj en fil innan du trycker på Skicka.';
 $MANTIS_ERROR[ERROR_FILE_MOVE_FAILED] = 'Filen som skickades in kunde inte flyttas till fillagringskatalogen. Katalogen finns inte eller är inte skrivbar för servern.';
 $MANTIS_ERROR[ERROR_FILE_NOT_FOUND] = 'Bilaga med id "%1$d" hittades inte.';
@@ -1397,7 +1405,7 @@ $MANTIS_ERROR[ERROR_API_TOKEN_NAME_NOT_UNIQUE] = 'API-tokennamnet "%s" används 
 $MANTIS_ERROR[ERROR_LOGFILE_NOT_WRITABLE] = 'Filen som specificerades i $g_log_destination "%s" är skrivskyddad.';
 $s_dropzone_default_message = 'Bifoga filer genom att dra och släppa, markera eller klistra in.';
 $s_dropzone_fallback_message = 'Din webbläsare stödjer inte filuppladdning med dra-och-släpp.';
-$s_dropzone_file_too_big = 'Filen är för stor ({{filesize}}MiB). Maximal filstorlek: {{maxFilesize}}MiB.';
+$s_dropzone_file_too_big = 'Filen är för stor ({{filesize}} MiB). Maximal storlek: {{maxFilesize}} MiB.';
 $s_dropzone_invalid_file_type = 'Du kan inte ladda upp filer av den här typen.';
 $s_dropzone_response_error = 'Servern svarade med koden {{statusCode}}.';
 $s_dropzone_cancel_upload = 'Avbryt uppladdning';
@@ -1405,7 +1413,7 @@ $s_dropzone_cancel_upload_confirmation = 'Är du säker på att du vill avbryta 
 $s_dropzone_remove_file = 'Ta bort fil';
 $s_dropzone_max_files_exceeded = 'Du kan inte ladda upp fler filer.';
 $s_dropzone_not_supported = 'Dropzone.js har inte stöd för äldre webbläsare!';
-$s_dropzone_multiple_files_too_big = 'Följande filer:{{files}}Överskrider den maximalt tillåtna filstorleken ({{maxFilesize}} MiB)';
+$s_dropzone_multiple_files_too_big = 'Följande filer:{{files}}överskrider den maximalt tillåtna filstorleken ({{maxFilesize}} MiB)';
 $s_save = 'Spara';
 $s_reset = 'Återställ';
 $s_persist = 'Beständig';

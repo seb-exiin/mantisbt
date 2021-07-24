@@ -25,7 +25,7 @@
  * **                                                                  **
  * **                      DO NOT UPDATE MANUALLY                      **
  * **                                                                  **
- * ** To improve a translation please visit http://translatewiki.net   **
+ * ** To improve a translation please visit https://translatewiki.net  **
  * ** Detailed instructions on how to create or update translations at **
  * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
  * **********************************************************************
@@ -33,7 +33,7 @@
 /** Turkish (Türkçe)
  * 
  * See the qqq 'language' for message documentation incl. usage of parameters
- * To improve a translation please visit http://translatewiki.net
+ * To improve a translation please visit https://translatewiki.net
  *
  * @ingroup Language
  * @file
@@ -56,6 +56,7 @@
  * @author Korayal
  * @author McAang
  * @author Meelo
+ * @author Melissadilara
  * @author MuratTheTurkish
  * @author Rapsar
  * @author Sayginer
@@ -67,7 +68,7 @@
  * @author Vito Genovese
  */
 
-$s_directionality = 'soldan sağa';
+$s_directionality = 'ltr';
 $s_actiongroup_menu_copy = 'Kopyala';
 $s_actiongroup_menu_assign = 'Ata';
 $s_actiongroup_menu_resolve = 'Çözümle';
@@ -373,8 +374,8 @@ $s_no_sponsored = 'Üstlenmeniz için atanmış hiç bir sorun bulunamadı.';
 $s_own_sponsored = 'Üstlendiğiniz Sorunlar:';
 $s_issues_handled = 'Üstlenmeniz İçin Size Atanan Sorunlar:';
 $s_no_own_sponsored = 'Hiçbir konuya sponsor olmadınız.';
-$s_sponsor = 'Sponsor';
-$s_sponsor_verb = 'Sponsor';
+$s_sponsor = 'Destekleyen';
+$s_sponsor_verb = 'Destekleyen';
 $s_amount = 'Miktar';
 $s_total_owing = 'Toplam Borç';
 $s_total_paid = 'Toplam Ödeme';
@@ -1058,7 +1059,7 @@ $s_changelog = 'Değişiklik Günlüğü';
 $s_changelog_empty = 'Hiç bir değişiklik kayıt bilgisi yok';
 $s_changelog_empty_manager = 'Değişiklik Günlüğü bilgisi yok. Projeler sürümlere sahip olduklarında ve sorunlar "sürümde düzeltildi" setiyle çözüldükten sonra dahil edilmiştir.';
 $s_roadmap = 'Yol haritası';
-$s_resolved_progress = '%2$d adet sorundan %1$d tanesi çözümlendi. İlerleme (%3$d%%).';
+$s_resolved_progress = '%2$d sorundan %1$d tanesi çözümlendi.';
 $s_roadmap_empty = 'Yol Haritası bilgisi yok';
 $s_roadmap_empty_manager = 'Yol Haritası bilgisi yok. Projeler sürümleri ve sorunlar "hedef sürümleri" belirlendikten sonra sorunlar dahil edilir.';
 $s_http_auth_realm = 'MantisBT Giriş';
