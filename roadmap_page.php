@@ -140,7 +140,7 @@ class RoadmapProgress {
 	 */
 	public function printProgressBar() {
 		echo '<div class="space-4"></div>';
-		echo '<div class="col-md-7 col-xs-12 no-padding">';
+		echo '<div class="col-xs-12 no-padding">';
 		echo '<div class="progress progress-large progress-striped" data-percent="'
 			. $this->percentage() . '" >';
 		echo '<div class="progress-bar progress-bar-success" style="width:'
