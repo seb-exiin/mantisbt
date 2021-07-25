@@ -37,3 +37,4 @@ $g_wiki_root_namespace = 'mantis';
 $protocol = strtolower(substr($_SERVER["SERVER_PROTOCOL"],0,5))=='https'?'https':'http';
 
 $g_wiki_engine_url = $protocol . '://' .$_SERVER['HTTP_HOST'] . '/wiki/';
+$g_cookie_domain = '.exiin.com'; 
