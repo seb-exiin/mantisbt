@@ -39,5 +39,7 @@ RewriteBase /wiki
 ## If you enable DokuWikis XML-RPC interface, you should consider to
 ## restrict access to it over HTTPS only! Uncomment the following two
 ## rules if your server setup allows HTTPS.
-RewriteCond %{HTTPS} !=on
-RewriteRule ^lib/exe/xmlrpc.php$      https://%{SERVER_NAME}%{REQUEST_URI} [L,R=301]
+## RewriteCond %{HTTPS} !=on
+## RewriteRule ^lib/exe/xmlrpc.php$      https://%{SERVER_NAME}%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
