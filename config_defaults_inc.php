@@ -868,7 +868,7 @@ $g_copyright_statement = '';
  * user agent (web browser) language preference.
  * @global string $g_default_language
  */
-$g_default_language = 'auto';
+$g_default_language = 'english';
 
 /**
  * list the choices that the users are allowed to choose
@@ -876,68 +876,7 @@ $g_default_language = 'auto';
  */
 $g_language_choices_arr = array(
 	'auto',
-	'afrikaans',
-	'amharic',
-	'arabic',
-	'arabicegyptianspoken',
-	'asturian',
-	'basque',
-	'belarusian_tarask',
-	'breton',
-	'bulgarian',
-	'catalan',
-	'chinese_simplified',
-	'chinese_traditional',
-	'croatian',
-	'czech',
-	'danish',
-	'dutch',
-	'english',
-	'estonian',
-	'esperanto',
-	'finnish',
-	'french',
-	'galician',
-	'georgian',
-	'german',
-	'greek',
-	'hebrew',
-	'hindi',
-	'hungarian',
-	'icelandic',
-	'interlingua',
-	'italian',
-	'japanese',
-	'korean',
-	'latvian',
-	'lithuanian',
-	'luxembourgish',
-	'macedonian',
-	'norwegian_bokmal',
-	'norwegian_nynorsk',
-	'occitan',
-	'persian',
-	'polish',
-	'portuguese_brazil',
-	'portuguese_standard',
-	'ripoarisch',
-	'romanian',
-	'russian',
-	'saraiki',
-	'serbian',
-	'serbian_latin',
-	'slovak',
-	'slovene',
-	'spanish',
-	'swedish',
-	'swissgerman',
-	'tagalog',
-	'turkish',
-	'ukrainian',
-	'urdu',
-	'vietnamese',
-	'volapuk',
-	'zazaki',
+	'english'
 );
 
 /**
