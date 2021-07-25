@@ -29,6 +29,21 @@ or followed by\\ a whitespace \\this happens without it.
 
 You should use forced newlines only if really needed.
 
+===== Horizontal rule ====
+
+DokuWiki supports separators:
+
+  Text Before
+  ----
+  Text After
+
+It should look like this:
+ 	
+Text before
+----
+Text after
+
+
 ===== Links =====
 
 DokuWiki supports multiple ways of creating links.
