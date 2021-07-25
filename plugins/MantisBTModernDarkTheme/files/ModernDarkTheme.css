@@ -175,19 +175,18 @@ html {
 }
 
 .label {
-  background-color: white !important;
-  color: #8b949e;
+  background-color: #657ae7 !important;
+  color: #c2c8e4;
   padding: 3px 10px;
-  border-radius: 5px;
-  text-shadow: 0px 0px 10px brown;
+  border-radius: 5px;  
 }
 
 .label:before {
-  border-right-color: white !important;
+  border-right-color: #657ae7 !important;
 }
 
 .label.arrowed-in-right:after {
-  border-color: white !important;
+  border-color: #657ae7 !important;
   border-right-color: transparent !important;
 }
 
@@ -749,6 +748,11 @@ a i {
   color: #4a4a4a !important;
 }
 
+.alert.alert-info a {
+  color: #31708f !important;
+  font-weight: bold;
+}
+
 .alert.alert-danger {
   background: #a94442;
   color: #f2dede;
@@ -757,11 +761,16 @@ a i {
 .alert.alert-success {
   background-color: #3c763d;
   color: #dff0d8;
+  border-radius: 5px;
+  box-shadow: -1px 2px 15px -3px #131111cf;
+  border-color: #434343 !important;
 }
 
 .alert.alert-success .btn-group a.btn.btn-primary {
   background-color: white !important;
-  text-shadow: 0 0 10px brown !important;
+  color: #3c763d !important;
+  font-weight: bold;
+  text-shadow: 0 0 10px #dff0d8 !important;
 }
 
 code {
@@ -841,6 +850,13 @@ table .row-category b {
   color: white !important;
 } 
 
+.navbar-container a#report-bug.btn-primary:hover {
+  color: white !important;
+} 
+.navbar-container a#report-bug.btn-primary:hover i {
+  color: white !important;
+} 
+
 .navbar-brand {
   font-weight: bold;
   font-variant: small-caps;
@@ -858,3 +874,11 @@ table .row-category b {
   border-radius: 5px !important;
 }
 
+.page-content .bug-summary {
+  color: white !important;
+  font-weight: bold;
+} 
+
+.widget-body .table td.column-summary a { 
+  font-weight: normal;
+}
