@@ -1,3 +1,6 @@
+$g_db_password            = 'rMAd4pXr';
+
+$g_default_timezone       = 'Europe/Paris';
 
 #####################
 # Wiki Integration
