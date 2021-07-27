@@ -1,3 +1,32 @@
+
+#####################
+# Wiki Integration
+#####################
+
+# Wiki Integration Enabled?
+$g_wiki_enable = ON;
+
+#Wiki Engine.
+$g_wiki_engine = 'dokuwiki';
+
+#Wiki namespace 
+$g_wiki_root_namespace = 'mantis';
+
+/**
+ * URL under which the wiki engine is hosted.
+ * Must be on the same server as MantisBT, requires trailing '/'.
+ * By default, this is derived from the global MantisBT path ($g_path),
+ * replacing the URL's path component by the wiki engine string (i.e. if
+ * $g_path = 'http://example.com/mantis/' and $g_wiki_engine = 'dokuwiki',
+ * the wiki URL will be 'http://example.com/dokuwiki/')
+ * @global string $g_wiki_engine_url
+ */
+$protocol = strtolower(substr($_SERVER["SERVER_PROTOCOL"],0,5))=='https'?'https':'http';
+
+$g_wiki_engine_url = $protocol . '://' .$_SERVER['HTTP_HOST'] . '/wiki/';
+//$g_cookie_path = './';
+//$g_cookie_domain = '.exiin.com';
+
 ################################
 # Customizing Status Values
 # https://www.mantisbt.org/docs/master/en-US/Admin_Guide/html/admin.customize.status.html
