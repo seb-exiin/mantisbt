@@ -1035,6 +1035,50 @@ function bug_view_relationship_view_box( $p_bug_id, $p_can_update ) {
 	</div>
 <?php
 }
+/**
+ * Make button to directly change to next Status
+ *
+	# Direct Change to Status
+	if( $p_flags['can_change_status'] ) {
+		echo '<div class="pull-left padding-right-8">';
+		bug_next_step_button_bug_change_status( $t_bug );
+		echo '</div>';
+	}
+
+ * @param BugData $p_bug A valid bug object.
+ * @return void
+ */
+function bug_next_step_button_bug_change_status( BugData $p_bug ) {
+	$t_current_access = access_get_project_level( $p_bug->project_id );
+
+	$t_enum_list = get_status_option_list(
+		$t_current_access,
+		$p_bug->status,
+		false,
+		# Add close if user is bug's reporter, still has rights to report issues
+		# (to prevent users downgraded to viewers from updating issues) and
+		# reporters are allowed to close their own issues
+		(  bug_is_user_reporter( $p_bug->id, auth_get_current_user_id() )
+		&& access_has_bug_level( config_get( 'report_bug_threshold' ), $p_bug->id )
+		&& ON == config_get( 'allow_reporter_close' )
+		),
+		$p_bug->project_id );
+
+	if( count( $t_enum_list ) > 0 ) {
+		# resort the list into ascending order after noting the key from the first element (the default)
+		$t_default = key( $t_enum_list );
+		ksort( $t_enum_list );
+		
+		$t_bug_id = string_attribute( $p_bug->id );
+
+		$t_button_text = lang_get( 'bug_status_to_button' );
+
+		html_button(
+			'bug_change_status_page.php',
+			$t_button_text.' '.strtoupper($t_enum_list[$t_default]),
+			array( 'id' => $p_bug->id, 'new_status' => $t_default, 'change_type' => BUG_UPDATE_TYPE_CHANGE_STATUS ) );
+	}
+}
 
 /**
  * Print Change Status to: button
@@ -1193,6 +1237,13 @@ function bug_view_action_buttons( $p_bug_id, $p_flags ) {
 	if( $p_flags['can_assign'] ) {
 		echo '<div class="pull-left padding-right-8">';
 		bug_view_button_bug_assign_to( $t_bug );
+		echo '</div>';
+	}
+
+	# Direct Change to Status
+	if( $p_flags['can_change_status'] ) {
+		echo '<div class="pull-left padding-right-8">';
+		bug_next_step_button_bug_change_status( $t_bug );
 		echo '</div>';
 	}
 
