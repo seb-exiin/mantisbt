@@ -65,3 +65,4 @@ composer.phar
 api/soap/mc_config_inc.php
 doc/en-US
 wiki/data
+wiki/conf/local.php.bak.php

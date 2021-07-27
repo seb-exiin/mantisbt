@@ -8,11 +8,14 @@
 
 $conf['title'] = 'Wiki';
 $conf['license'] = '0';
-$conf['disableactions'] = 'register';
+$conf['userewrite'] = '1';
+$conf['useslash'] = 1;
+$conf['sepchar'] = '-';
 $conf['proxy']['user'] = 'seb';
+$conf['plugin']['dropfiles']['insertFileLink'] = 1;
+$conf['plugin']['inlinejs']['follow_htmlok'] = 0;
 $conf['plugin']['cspheader']['defaultsrcValue'] = '\'self\' \'unsafe-inline\'';
 $conf['plugin']['cspheader']['baseuriValue'] = '\'self\' \'unsafe-inline\'';
-$conf['plugin']['inlinejs']['follow_htmlok'] = 0;
 $conf['plugin']['cspheader']['enableHeader'] = '1';
 $conf['plugin']['cspheader']['optionsInline'] = '1';
 $conf['plugin']['cspheader']['optionsEval'] = '1';
