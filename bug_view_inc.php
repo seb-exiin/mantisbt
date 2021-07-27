@@ -1112,8 +1112,10 @@ function bug_view_button_bug_change_status( BugData $p_bug ) {
 		echo '<form method="post" action="bug_change_status_page.php" class="form-inline">';
 		# CSRF protection not required here - form does not result in modifications
 
+		$t_button_submit = lang_get( 'bug_send_button' );
 		$t_button_text = lang_get( 'bug_status_to_button' );
-		echo '<input type="submit" class="btn btn-primary btn-sm btn-white btn-round" value="' . $t_button_text . '" />';
+		echo $t_button_text;
+	
 
 		echo ' <select name="new_status" class="input-sm">';
 
@@ -1124,6 +1126,8 @@ function bug_view_button_bug_change_status( BugData $p_bug ) {
 			echo '>' . $t_val . '</option>';
 		}
 		echo '</select>';
+
+		echo '<input type="submit" class="btn btn-primary btn-sm btn-white btn-round" value="' . $t_button_submit . '" />';
 
 		$t_bug_id = string_attribute( $p_bug->id );
 		echo '<input type="hidden" name="id" value="' . $t_bug_id . '" />' . "\n";
