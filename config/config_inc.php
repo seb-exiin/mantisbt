@@ -2,6 +2,14 @@ $g_db_password            = 'rMAd4pXr';
 
 $g_default_timezone       = 'Europe/Paris';
 
+
+$g_status_colors = array( 'new' => '#ffa0a0', # red,
+    'feedback' => '#ff50a8', # purple
+    'acknowledged' => '#ffd850', # orange
+    'confirmed' => '#ffffb0', # yellow
+    'assigned' => '#c8c8ff', # blue
+    'resolved' => '#cceedd', # buish-green
+    'closed' => '#e8e8e8'); # light gray
 #####################
 # Wiki Integration
 #####################
