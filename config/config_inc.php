@@ -10,6 +10,10 @@ $g_status_colors = array( 'new' => '#ffa0a0', # red,
     'assigned' => '#c8c8ff', # blue
     'resolved' => '#cceedd', # buish-green
     'closed' => '#e8e8e8'); # light gray
+
+
+$g_custom_headers = array( 'Content-Security-Policy:' );
+
 #####################
 # Wiki Integration
 #####################
